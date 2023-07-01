@@ -7,6 +7,7 @@ import java.io.*;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 public class Server {
@@ -48,9 +49,10 @@ public class Server {
     }
 
     public void start() throws IOException, ClassNotFoundException, InterruptedException {
-        System.out.println("Waiting for clients...");
+
         while (true) {
             try {
+                System.out.println("Waiting for clients...");
 
                 Socket clientSocket = new Socket();
                 clientSocket = cs.accept();
@@ -83,7 +85,7 @@ public class Server {
         private final Socket socket;
         private final ObjectInputStream ois;
         private final ObjectOutputStream oos;
-        private volatile boolean exit = false;
+        private final AtomicBoolean running = new AtomicBoolean(false);
 
 
 
@@ -97,7 +99,7 @@ public class Server {
 
         @Override
         public void run() {
-            while (!exit) {
+
                 try {
                     synchronized (lock1) {
                         IntermediateResult intResult = receiveIntermediateResult();
@@ -108,17 +110,17 @@ public class Server {
                         repo.addResults(res);
                         System.out.println(repo.getResult(res.getName()));
                         lock1.notifyAll();
-                        return;
+
 
                     }
 
-                } catch (Exception  e) {
+                } catch (Exception e) {
                     System.out.println("ERRORE RE PELLE 4");
 
                     e.printStackTrace();
                     return;
                 }
-            }
+
         }
         public Results reduce(IntermediateResult intResult){
             String name = intResult.getName();
@@ -180,7 +182,7 @@ public class Server {
         private Connector connector;
         private WorkerHandler worker;
         private final PrintWriter oos;
-        private volatile boolean exit = false;
+        private final AtomicBoolean running = new AtomicBoolean(false);
 
 
         public ClientHandler(Socket clientSocket, Connector connector) throws IOException {
@@ -193,7 +195,6 @@ public class Server {
         @Override
         public void run() {
             try {
-                while(!exit) {
 
                     byte[] data = readData(dis);
 
@@ -221,7 +222,7 @@ public class Server {
                     System.out.println("tasks size after sending to the worker: " + tasks.size());// Assuming that this method will retrieve the next task for the user.
 
                     System.out.println("Processing completed for user: " + userName);
-                    worker.markAsFree();
+
                     System.out.println("Free Workers: " + freeWorkers.size());
                     synchronized (lock1) {
                         while (repo.getResult(userName) == null) {
@@ -235,11 +236,12 @@ public class Server {
                     }
                     System.out.println(repo.getResult(userName).toString());
                     sendData(repo.getResult(userName));
-                    return;
+                worker.markAsFree();
+                    running.set(false);
                     //stop();
 
 
-                }
+
             } catch (Exception e) {
 
                 System.out.println("ERRORE RE PELLE 1");
@@ -251,6 +253,7 @@ public class Server {
             }
 
         }
+
 
         private byte[] readData(DataInputStream dis) throws IOException {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
