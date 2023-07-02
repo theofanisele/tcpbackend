@@ -13,14 +13,15 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class Server {
     private final List<WorkerHandler> workers = new ArrayList<>();
     private final List<WorkerHandler> freeWorkers = new ArrayList<>();
-    private final Map<Connector, WorkerHandler> workerUserMap = new HashMap<>();
+    private final Map<WorkerHandler,Socket> workerUserMap = new HashMap<>();
     private final ServerSocket ws;
     private final ServerSocket cs;
     private final TaskManager tasks;
     private final Object lock = new Object();
     private final Object lock1 = new Object();
-    private List<Connector> connectors = new ArrayList<>();
+    private final Object lock2 = new Object();
     private Repository repo = new Repository();
+    private Map<String, Double> percentDiffs = new HashMap<>();
 
     public Server() throws IOException {
         this.cs = new ServerSocket(8000);
@@ -28,7 +29,7 @@ public class Server {
         this.tasks = new TaskManager();
 //        int nThreads = Runtime.getRuntime().availableProcessors();
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 2; i++) {
             ProcessBuilder pb = new ProcessBuilder("java", "-cp", System.getProperty("java.class.path"), "org.example.Worker");
             pb.redirectOutput(new File("worker" + i + ".log"));
             pb.start();
@@ -47,20 +48,24 @@ public class Server {
 
         }
     }
+    public Object getLock1() {
+        return lock1;
+    }
 
     public void start() throws IOException, ClassNotFoundException, InterruptedException {
 
         while (true) {
+
             try {
                 System.out.println("Waiting for clients...");
 
                 Socket clientSocket = new Socket();
                 clientSocket = cs.accept();
-                Connector connector = new Connector(clientSocket);
-                connectors.add(connector);
+
                 System.out.println(clientSocket.getInetAddress() + " connected.");
-                Thread thread = new Thread(new ClientHandler(clientSocket,connector));
+                Thread thread = new Thread(new ClientHandler(clientSocket));
                 thread.start();
+                System.out.println(thread.isAlive());
                 System.out.println(thread.getName());
             } catch (IOException e) {
                 System.out.println("ERRORE RE PELLE 2");
@@ -73,15 +78,17 @@ public class Server {
 
     public static void main(String[] args) {
         try {
+
             Server server = new Server();
             server.start();
+
         } catch(IOException | ClassNotFoundException | InterruptedException e) {
             e.printStackTrace();
             System.out.println("ERRORE RE PELLE 3");
         }
     }
 
-    private class WorkerHandler extends Thread{
+    private class WorkerHandler implements Runnable{
         private final Socket socket;
         private final ObjectInputStream ois;
         private final ObjectOutputStream oos;
@@ -99,27 +106,37 @@ public class Server {
 
         @Override
         public void run() {
+            while(true){
 
                 try {
-                    synchronized (lock1) {
-                        IntermediateResult intResult = receiveIntermediateResult();
-                        System.out.println(intResult.getTotalTimes());
-                        System.out.println(intResult.getName());
-                        Results res = reduce(intResult);
-                        System.out.println(res.toString());
-                        repo.addResults(res);
-                        System.out.println(repo.getResult(res.getName()));
-                        lock1.notifyAll();
 
+
+                        IntermediateResult intResult = new IntermediateResult();
+                        intResult = receiveIntermediateResult();
+
+
+                        Results res = reduce(intResult);
+                        System.out.println("worker handler " + res.toString());
+
+                    synchronized (lock) {
+
+                        repo.addResults(res);
+                        percentDiffs = PercentDiffCalculator.calculatePercentDiffs(res,repo.getResult("average"));
+                        System.out.println(percentDiffs);
+//                        System.out.println(repo.getResult(res.getName()));
+                        lock.notifyAll();
+
+                        markAsFree();
+                        System.out.println("last pont in the app");
 
                     }
+                    } catch(Exception e){
+                        System.out.println("ERRORE RE PELLE 4");
+                        e.printStackTrace();
+                        return;
+                    }
 
-                } catch (Exception e) {
-                    System.out.println("ERRORE RE PELLE 4");
-
-                    e.printStackTrace();
-                    return;
-                }
+            }
 
         }
         public Results reduce(IntermediateResult intResult){
@@ -161,12 +178,25 @@ public class Server {
 
 
 
+//        private void markAsFree() {
+//            synchronized (lock) {
+//                Socket userName = workerUserMap.remove(this);
+//                freeWorkers.add(this);
+////                WorkerHandler userName = workerUserMap.remove(user); // Use the Connector as the key
+////                freeWorkers.add(this);
+//                System.out.println("Worker is now free");
+//                lock.notify();
+//
+//                return;
+//            }
+//        }
+
         private void markAsFree() {
-            synchronized (lock) {
-                WorkerHandler userName = workerUserMap.remove(this);
+            synchronized (lock1) {
+                Socket userName = workerUserMap.remove(this);
                 freeWorkers.add(this);
                 System.out.println("Worker is now free");
-                lock.notifyAll();
+                lock1.notifyAll();
             }
         }
         public IntermediateResult receiveIntermediateResult() throws IOException, ClassNotFoundException {
@@ -175,18 +205,17 @@ public class Server {
 
 
     }
-    private class ClientHandler extends Thread {
+    private class ClientHandler implements Runnable {
         private final DataInputStream dis ;
         private final Socket clientSocket;
         private String userName;
-        private Connector connector;
         private WorkerHandler worker;
         private final PrintWriter oos;
         private final AtomicBoolean running = new AtomicBoolean(false);
 
 
-        public ClientHandler(Socket clientSocket, Connector connector) throws IOException {
-            this.connector = connector;
+        public ClientHandler(Socket clientSocket) throws IOException {
+
             this.clientSocket = clientSocket;
             this.dis = new DataInputStream(new BufferedInputStream(clientSocket.getInputStream()));
             this.oos = new PrintWriter(new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream())), true);
@@ -204,9 +233,9 @@ public class Server {
                     System.out.println("Received GPX object from: " + receivedData.getUserName());
                     System.out.println(receivedData);
                     userName = receivedData.getUserName();
+//                    usernames.add(userName);
 
-
-                    worker = assignWorkerToUser(connector);
+                    worker = assignWorkerToUser();
 
 
                     System.out.println(worker);
@@ -221,23 +250,31 @@ public class Server {
 
                     System.out.println("tasks size after sending to the worker: " + tasks.size());// Assuming that this method will retrieve the next task for the user.
 
-                    System.out.println("Processing completed for user: " + userName);
 
-                    System.out.println("Free Workers: " + freeWorkers.size());
-                    synchronized (lock1) {
-                        while (repo.getResult(userName) == null) {
-                            try {
-                                lock1.wait();
-                            } catch (InterruptedException e) {
-                                System.out.println("ERRORE RE PELLE 5");
-                                throw new RuntimeException(e);
-                            }
+
+
+                synchronized (lock) {
+
+                        try {
+                            lock.wait();
+                        } catch (InterruptedException e) {
+                            System.out.println("ERRORE RE PELLE 5");
+                            throw new RuntimeException(e);
                         }
-                    }
-                    System.out.println(repo.getResult(userName).toString());
-                    sendData(repo.getResult(userName));
-                worker.markAsFree();
-                    running.set(false);
+
+                }
+
+
+                System.out.println("Processing completed for user: " + userName);
+
+//                worker.markAsFree();
+//                System.out.println(repo.getResult(userName).toString());
+                sendData(repo.getResult(userName),repo.getResult("averages"), percentDiffs);
+
+                System.out.println("Free Workers: " + freeWorkers.size());
+                clientSocket.close();
+//                running.set(false);
+
                     //stop();
 
 
@@ -245,7 +282,7 @@ public class Server {
             } catch (Exception e) {
 
                 System.out.println("ERRORE RE PELLE 1");
-                stop();
+
                 e.printStackTrace();
                 System.out.println(e);
                 System.out.println(e.getMessage());
@@ -253,6 +290,7 @@ public class Server {
             }
 
         }
+
 
 
         private byte[] readData(DataInputStream dis) throws IOException {
@@ -266,24 +304,6 @@ public class Server {
         }
 
 
-//private byte[] readData(DataInputStream dis) throws IOException {
-//    ByteArrayOutputStream baos = new ByteArrayOutputStream();
-//    byte[] buffer = new byte[1024]; // size depends on the expected data
-//    int bytesRead;
-//
-//    // read the first 4 bytes for the file length
-//    byte[] lengthBytes = new byte[4];
-//    dis.readFully(lengthBytes);
-//    int length = ByteBuffer.wrap(lengthBytes).getInt();
-//
-//    while (length > 0 && (bytesRead = dis.read(buffer, 0, Math.min(buffer.length, length))) != -1) {
-//        baos.write(buffer, 0, bytesRead);
-//        length -= bytesRead; // subtract the number of bytes read from the length
-//    }
-//
-//    return baos.toByteArray();
-//}
-
         private void createTasks(String userName, List<Wpt> waypoints) {
             for (int i = 0; i < waypoints.size() - 1; i++) {
                 List<Wpt> wpts = new ArrayList<>();
@@ -292,7 +312,7 @@ public class Server {
                 tasks.addTask(userName, wpts);
 
             }
-            System.out.println(tasks.getTasks(userName).toString());
+//            System.out.println(tasks.getTasks(userName).toString());
         }
 
 
@@ -322,29 +342,41 @@ public class Server {
             }
         }
 
-        private WorkerHandler assignWorkerToUser(Connector connector) throws InterruptedException {
-            synchronized (lock) {
-                while (freeWorkers.isEmpty()) {
-                        System.out.println("Waiting for free worker for user: " + connector);
-                        lock.wait();
-                    System.out.println("hello");
-                }
-//                lock.notifyAll();
-                WorkerHandler worker = freeWorkers.remove(0);
-                workerUserMap.put(connector, worker);
-                System.out.println("Assigned worker to user: " + connector);
 
+        private WorkerHandler assignWorkerToUser() throws InterruptedException {
+            synchronized (lock1) {
+                while (freeWorkers.isEmpty()) {
+                    System.out.println("Waiting for free worker for user");
+                    lock1.wait();
+
+                }
+                WorkerHandler worker = freeWorkers.remove(0);
+                workerUserMap.put(worker, clientSocket);
+                System.out.println("Assigned worker to user: " + clientSocket);
                 return worker;
             }
         }
-        public void sendData(Results data) throws IOException {
+        public void sendData(Results data, Results averages, Map<String,Double> perc) throws IOException {
             // Write the data object to the ObjectOutputStream
+            System.out.println("hello from sending the data");
+
             Gson gson = new Gson();
-            String jsonString = gson.toJson(data);
-            oos.println(jsonString);
+            String jsonResults = gson.toJson(data);
+
+            Gson gson1 = new Gson();
+            String jsonAverages = gson.toJson(averages);
+
+            Gson gson2 = new Gson();
+            String jsonPercs = gson.toJson(perc);
+
+            System.out.println(" json data for the user "+jsonResults);
+            oos.println(jsonResults);
+            oos.println(jsonAverages);
+            oos.println(jsonPercs);
 
             // Flush the stream to ensure the data is sent immediately
             oos.flush();
+            oos.close();
 //            oos.close();
         }
     }

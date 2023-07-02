@@ -1,125 +1,1831 @@
 Worker localhost connected to the server.
-Received task size: 20
-Received task: Username: user2
+Received task size: 133
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94533760053011, longitude=23.683774543070115}}, Elevation{2.75}, Time{1679247533}
-Location{Location{latitude=37.945143003342544, longitude=23.68417151000432}}, Elevation{2.18}, Time{1679247543}
+Location{Location{latitude=37.975033880710484, longitude=23.734082814713215}}, Elevation{84.49}, Time{1679248639}
+Location{Location{latitude=37.97466276547986, longitude=23.734044934572992}}, Elevation{85.02}, Time{1679248649}
 
 Total tasks received: 1
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.945143003342544, longitude=23.68417151000432}}, Elevation{2.18}, Time{1679247543}
-Location{Location{latitude=37.944846876198724, longitude=23.684976172708787}}, Elevation{2.13}, Time{1679247563}
+Location{Location{latitude=37.97466276547986, longitude=23.734044934572992}}, Elevation{85.02}, Time{1679248649}
+Location{Location{latitude=37.974307555569304, longitude=23.733943010630426}}, Elevation{85.99}, Time{1679248659}
 
 Total tasks received: 2
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.944846876198724, longitude=23.684976172708787}}, Elevation{2.13}, Time{1679247563}
-Location{Location{latitude=37.94456766951294, longitude=23.685695004724778}}, Elevation{2.11}, Time{1679247581}
+Location{Location{latitude=37.974307555569304, longitude=23.733943010630426}}, Elevation{85.99}, Time{1679248659}
+Location{Location{latitude=37.97407497672046, longitude=23.733916188540277}}, Elevation{86.93}, Time{1679248665}
 
 Total tasks received: 3
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94456766951294, longitude=23.685695004724778}}, Elevation{2.11}, Time{1679247581}
-Location{Location{latitude=37.94440691366712, longitude=23.68612415816716}}, Elevation{2.19}, Time{1679247591}
+Location{Location{latitude=37.97407497672046, longitude=23.733916188540277}}, Elevation{86.93}, Time{1679248665}
+Location{Location{latitude=37.97368170535409, longitude=23.7338303578518}}, Elevation{88.7}, Time{1679248676}
 
 Total tasks received: 4
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94440691366712, longitude=23.68612415816716}}, Elevation{2.19}, Time{1679247591}
-Location{Location{latitude=37.94399233117863, longitude=23.68714339759282}}, Elevation{2.02}, Time{1679247616}
+Location{Location{latitude=37.97368170535409, longitude=23.7338303578518}}, Elevation{88.7}, Time{1679248676}
+Location{Location{latitude=37.973432209523935, longitude=23.733760620417414}}, Elevation{89.92}, Time{1679248683}
 
 Total tasks received: 5
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94399233117863, longitude=23.68714339759282}}, Elevation{2.02}, Time{1679247616}
-Location{Location{latitude=37.94345594504638, longitude=23.688157450339276}}, Elevation{1.89}, Time{1679247643}
+Location{Location{latitude=37.973432209523935, longitude=23.733760620417414}}, Elevation{89.92}, Time{1679248683}
+Location{Location{latitude=37.973157340254694, longitude=23.733690882983026}}, Elevation{90.74}, Time{1679248691}
 
 Total tasks received: 6
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94345594504638, longitude=23.688157450339276}}, Elevation{1.89}, Time{1679247643}
-Location{Location{latitude=37.942965208148955, longitude=23.6890801302404}}, Elevation{2.2}, Time{1679247668}
+Location{Location{latitude=37.973157340254694, longitude=23.733690882983026}}, Elevation{90.74}, Time{1679248691}
+Location{Location{latitude=37.97293744409827, longitude=23.733680154146967}}, Elevation{91.16}, Time{1679248697}
 
 Total tasks received: 7
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.942965208148955, longitude=23.6890801302404}}, Elevation{2.2}, Time{1679247668}
-Location{Location{latitude=37.94366746856044, longitude=23.69006119009711}}, Elevation{2.4}, Time{1679247697}
+Location{Location{latitude=37.97293744409827, longitude=23.733680154146967}}, Elevation{91.16}, Time{1679248697}
+Location{Location{latitude=37.97273869123628, longitude=23.73357286578637}}, Elevation{91.75}, Time{1679248703}
 
 Total tasks received: 8
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94366746856044, longitude=23.69006119009711}}, Elevation{2.4}, Time{1679247697}
-Location{Location{latitude=37.943430562183785, longitude=23.69062981840827}}, Elevation{2.07}, Time{1679247711}
+Location{Location{latitude=37.97273869123628, longitude=23.73357286578637}}, Elevation{91.75}, Time{1679248703}
+Location{Location{latitude=37.97255685304009, longitude=23.733548725905237}}, Elevation{92.03}, Time{1679248708}
 
 Total tasks received: 9
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.943430562183785, longitude=23.69062981840827}}, Elevation{2.07}, Time{1679247711}
-Location{Location{latitude=37.94406831976051, longitude=23.691354795665454}}, Elevation{2.44}, Time{1679247735}
+Location{Location{latitude=37.97255685304009, longitude=23.733548725905237}}, Elevation{92.03}, Time{1679248708}
+Location{Location{latitude=37.97242576010758, longitude=23.73347362405282}}, Elevation{92.03}, Time{1679248712}
 
 Total tasks received: 10
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94406831976051, longitude=23.691354795665454}}, Elevation{2.44}, Time{1679247735}
-Location{Location{latitude=37.94376372736891, longitude=23.693135782451343}}, Elevation{2.56}, Time{1679247776}
+Location{Location{latitude=37.97242576010758, longitude=23.73347362405282}}, Elevation{92.03}, Time{1679248712}
+Location{Location{latitude=37.97226295081712, longitude=23.733430708708582}}, Elevation{91.62}, Time{1679248716}
 
 Total tasks received: 11
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94376372736891, longitude=23.693135782451343}}, Elevation{2.56}, Time{1679247776}
-Location{Location{latitude=37.94340250418338, longitude=23.693744862242266}}, Elevation{2.34}, Time{1679247793}
+Location{Location{latitude=37.97226295081712, longitude=23.733430708708582}}, Elevation{91.62}, Time{1679248716}
+Location{Location{latitude=37.97206029751553, longitude=23.73372561207019}}, Elevation{89.9}, Time{1679248724}
 
 Total tasks received: 12
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94340250418338, longitude=23.693744862242266}}, Elevation{2.34}, Time{1679247793}
-Location{Location{latitude=37.94319959150863, longitude=23.69405535285197}}, Elevation{2.28}, Time{1679247802}
+Location{Location{latitude=37.97206029751553, longitude=23.73372561207019}}, Elevation{89.9}, Time{1679248724}
+Location{Location{latitude=37.97201800921233, longitude=23.733830218221772}}, Elevation{89.84}, Time{1679248726}
 
 Total tasks received: 13
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94319959150863, longitude=23.69405535285197}}, Elevation{2.28}, Time{1679247802}
-Location{Location{latitude=37.94264308670052, longitude=23.694901559011033}}, Elevation{2.42}, Time{1679247826}
+Location{Location{latitude=37.97201800921233, longitude=23.733830218221772}}, Elevation{89.84}, Time{1679248726}
+Location{Location{latitude=37.97179215588327, longitude=23.73358886353126}}, Elevation{88.62}, Time{1679248734}
 
 Total tasks received: 14
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94264308670052, longitude=23.694901559011033}}, Elevation{2.42}, Time{1679247826}
-Location{Location{latitude=37.941972494069596, longitude=23.69584861658304}}, Elevation{2.56}, Time{1679247854}
+Location{Location{latitude=37.97179215588327, longitude=23.73358886353126}}, Elevation{88.62}, Time{1679248734}
+Location{Location{latitude=37.97161031534244, longitude=23.733449388662486}}, Elevation{87.73}, Time{1679248740}
 
 Total tasks received: 15
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.941972494069596, longitude=23.69584861658304}}, Elevation{2.56}, Time{1679247854}
-Location{Location{latitude=37.94120723741499, longitude=23.69616825487999}}, Elevation{3.17}, Time{1679247877}
+Location{Location{latitude=37.97161031534244, longitude=23.733449388662486}}, Elevation{87.73}, Time{1679248740}
+Location{Location{latitude=37.9715215093332, longitude=23.733393062273173}}, Elevation{87.31}, Time{1679248742}
 
 Total tasks received: 16
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94120723741499, longitude=23.69616825487999}}, Elevation{3.17}, Time{1679247877}
-Location{Location{latitude=37.94163285821314, longitude=23.69690841885402}}, Elevation{4.04}, Time{1679247897}
+Location{Location{latitude=37.9715215093332, longitude=23.733393062273173}}, Elevation{87.31}, Time{1679248742}
+Location{Location{latitude=37.971445389811215, longitude=23.733317960420756}}, Elevation{86.89}, Time{1679248744}
 
 Total tasks received: 17
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94163285821314, longitude=23.69690841885402}}, Elevation{4.04}, Time{1679247897}
-Location{Location{latitude=37.94191695849855, longitude=23.69725311927087}}, Elevation{4.53}, Time{1679247908}
+Location{Location{latitude=37.971445389811215, longitude=23.733317960420756}}, Elevation{86.89}, Time{1679248744}
+Location{Location{latitude=37.971352354732716, longitude=23.733240176359324}}, Elevation{86.34}, Time{1679248747}
 
 Total tasks received: 18
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94191695849855, longitude=23.69725311927087}}, Elevation{4.53}, Time{1679247908}
-Location{Location{latitude=37.94270383936956, longitude=23.698283087532587}}, Elevation{6.95}, Time{1679247940}
+Location{Location{latitude=37.971352354732716, longitude=23.733240176359324}}, Elevation{86.34}, Time{1679248747}
+Location{Location{latitude=37.971244518471444, longitude=23.7331275235807}}, Elevation{85.66}, Time{1679248750}
 
 Total tasks received: 19
-Received task: Username: user2
+Received task: Username: user1
 Waypoints: 
-Location{Location{latitude=37.94270383936956, longitude=23.698283087532587}}, Elevation{6.95}, Time{1679247940}
-Location{Location{latitude=37.94331871580609, longitude=23.699140220704066}}, Elevation{8.18}, Time{1679247966}
+Location{Location{latitude=37.971244518471444, longitude=23.7331275235807}}, Elevation{85.66}, Time{1679248750}
+Location{Location{latitude=37.971085935446546, longitude=23.7331275235807}}, Elevation{85.0}, Time{1679248754}
 
 Total tasks received: 20
-Intermediate results totalDistance: [0.040986591188928265, 0.07786466722950984, 0.07026452283267218, 0.0416616957822106, 0.10056502282945404, 0.10707244818534717, 0.09759146278775671, 0.11618432694300378, 0.056393922145951826, 0.09523943816542856, 0.15980467658796246, 0.0668280129817119, 0.035360944109504334, 0.0966205156238653, 0.11161232691154067, 0.08959037548391637, 0.0803290294396194, 0.04372261343796988, 0.12575131121744595, 0.10160732877692827]
-Intermediate results totalTime: [10, 20, 18, 10, 25, 27, 25, 29, 14, 24, 41, 17, 9, 24, 28, 23, 20, 11, 32, 26]
-Intermediate results totalElevationGain: [0.0, 0.0, 0.0, 0.08000000000000007, 0.0, 0.0, 0.3100000000000003, 0.19999999999999973, 0.0, 0.3700000000000001, 0.1200000000000001, 0.0, 0.0, 0.14000000000000012, 0.14000000000000012, 0.6099999999999999, 0.8700000000000001, 0.4900000000000002, 2.42, 1.2299999999999995]
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.971085935446546, longitude=23.7331275235807}}, Elevation{85.0}, Time{1679248754}
+Location{Location{latitude=37.97096964101056, longitude=23.73317312113395}}, Elevation{84.38}, Time{1679248757}
+
+Total tasks received: 21
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97096964101056, longitude=23.73317312113395}}, Elevation{84.38}, Time{1679248757}
+Location{Location{latitude=37.970859689738035, longitude=23.73322676531425}}, Elevation{83.99}, Time{1679248760}
+
+Total tasks received: 22
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970859689738035, longitude=23.73322676531425}}, Elevation{83.99}, Time{1679248760}
+Location{Location{latitude=37.970758196109514, longitude=23.733296502748637}}, Elevation{83.54}, Time{1679248763}
+
+Total tasks received: 23
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970758196109514, longitude=23.733296502748637}}, Elevation{83.54}, Time{1679248763}
+Location{Location{latitude=37.97068419025026, longitude=23.733382333437113}}, Elevation{83.23}, Time{1679248765}
+
+Total tasks received: 24
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97068419025026, longitude=23.733382333437113}}, Elevation{83.23}, Time{1679248765}
+Location{Location{latitude=37.97062921442083, longitude=23.73348962179771}}, Elevation{82.93}, Time{1679248767}
+
+Total tasks received: 25
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97062921442083, longitude=23.73348962179771}}, Elevation{82.93}, Time{1679248767}
+Location{Location{latitude=37.970559064635104, longitude=23.733678812235546}}, Elevation{82.44}, Time{1679248771}
+
+Total tasks received: 26
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970559064635104, longitude=23.733678812235546}}, Elevation{82.44}, Time{1679248771}
+Location{Location{latitude=37.970508317630575, longitude=23.733770007342052}}, Elevation{82.25}, Time{1679248773}
+
+Total tasks received: 27
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970508317630575, longitude=23.733770007342052}}, Elevation{82.25}, Time{1679248773}
+Location{Location{latitude=37.97044065490332, longitude=23.733914846628856}}, Elevation{81.91}, Time{1679248776}
+
+Total tasks received: 28
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97044065490332, longitude=23.733914846628856}}, Elevation{81.91}, Time{1679248776}
+Location{Location{latitude=37.97038567889148, longitude=23.73409187242384}}, Elevation{81.42}, Time{1679248780}
+
+Total tasks received: 29
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97038567889148, longitude=23.73409187242384}}, Elevation{81.42}, Time{1679248780}
+Location{Location{latitude=37.97035184747912, longitude=23.73416965648527}}, Elevation{81.16}, Time{1679248782}
+
+Total tasks received: 30
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97035184747912, longitude=23.73416965648527}}, Elevation{81.16}, Time{1679248782}
+Location{Location{latitude=37.97029687140082, longitude=23.73432790681715}}, Elevation{80.69}, Time{1679248785}
+
+Total tasks received: 31
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97029687140082, longitude=23.73432790681715}}, Elevation{80.69}, Time{1679248785}
+Location{Location{latitude=37.97025246761518, longitude=23.734435195177745}}, Elevation{80.36}, Time{1679248787}
+
+Total tasks received: 32
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97025246761518, longitude=23.734435195177745}}, Elevation{80.36}, Time{1679248787}
+Location{Location{latitude=37.970159431024875, longitude=23.734620267599773}}, Elevation{79.78}, Time{1679248791}
+
+Total tasks received: 33
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970159431024875, longitude=23.734620267599773}}, Elevation{79.78}, Time{1679248791}
+Location{Location{latitude=37.970058486292615, longitude=23.734862899973006}}, Elevation{79.06}, Time{1679248797}
+
+Total tasks received: 34
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970058486292615, longitude=23.734862899973006}}, Elevation{79.06}, Time{1679248797}
+Location{Location{latitude=37.969967563931355, longitude=23.73514453191957}}, Elevation{78.31}, Time{1679248803}
+
+Total tasks received: 35
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.969967563931355, longitude=23.73514453191957}}, Elevation{78.31}, Time{1679248803}
+Location{Location{latitude=37.96985549667996, longitude=23.73540738840303}}, Elevation{77.58}, Time{1679248809}
+
+Total tasks received: 36
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96985549667996, longitude=23.73540738840303}}, Elevation{77.58}, Time{1679248809}
+Location{Location{latitude=37.96975400166315, longitude=23.735584414198012}}, Elevation{77.11}, Time{1679248813}
+
+Total tasks received: 37
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96975400166315, longitude=23.735584414198012}}, Elevation{77.11}, Time{1679248813}
+Location{Location{latitude=37.96967999479161, longitude=23.735788262083144}}, Elevation{76.67}, Time{1679248818}
+
+Total tasks received: 38
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96967999479161, longitude=23.735788262083144}}, Elevation{76.67}, Time{1679248818}
+Location{Location{latitude=37.96958272850412, longitude=23.736083305074782}}, Elevation{76.1}, Time{1679248825}
+
+Total tasks received: 39
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96958272850412, longitude=23.736083305074782}}, Elevation{76.1}, Time{1679248825}
+Location{Location{latitude=37.96944528679123, longitude=23.736425700460426}}, Elevation{75.68}, Time{1679248833}
+
+Total tasks received: 40
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96944528679123, longitude=23.736425700460426}}, Elevation{75.68}, Time{1679248833}
+Location{Location{latitude=37.96937973757602, longitude=23.73670733240699}}, Elevation{75.41}, Time{1679248839}
+
+Total tasks received: 41
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96937973757602, longitude=23.73670733240699}}, Elevation{75.41}, Time{1679248839}
+Location{Location{latitude=37.96930361583327, longitude=23.736988964353554}}, Elevation{75.21}, Time{1679248845}
+
+Total tasks received: 42
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96930361583327, longitude=23.736988964353554}}, Elevation{75.21}, Time{1679248845}
+Location{Location{latitude=37.96921879696766, longitude=23.737450024549535}}, Elevation{75.66}, Time{1679248855}
+
+Total tasks received: 43
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96921879696766, longitude=23.737450024549535}}, Elevation{75.66}, Time{1679248855}
+Location{Location{latitude=37.969209670236594, longitude=23.73783730215352}}, Elevation{76.64}, Time{1679248863}
+
+Total tasks received: 44
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.969209670236594, longitude=23.73783730215352}}, Elevation{76.64}, Time{1679248863}
+Location{Location{latitude=37.9692604181388, longitude=23.73827182001393}}, Elevation{78.07}, Time{1679248872}
+
+Total tasks received: 45
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.9692604181388, longitude=23.73827182001393}}, Elevation{78.07}, Time{1679248872}
+Location{Location{latitude=37.969281563087705, longitude=23.73844079918187}}, Elevation{78.62}, Time{1679248875}
+
+Total tasks received: 46
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.969281563087705, longitude=23.73844079918187}}, Elevation{78.62}, Time{1679248875}
+Location{Location{latitude=37.96944860796988, longitude=23.738821672861985}}, Elevation{79.89}, Time{1679248884}
+
+Total tasks received: 47
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96944860796988, longitude=23.738821672861985}}, Elevation{79.89}, Time{1679248884}
+Location{Location{latitude=37.969575477246735, longitude=23.739105987017563}}, Elevation{80.79}, Time{1679248891}
+
+Total tasks received: 48
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.969575477246735, longitude=23.739105987017563}}, Elevation{80.79}, Time{1679248891}
+Location{Location{latitude=37.969676823613106, longitude=23.739330385928497}}, Elevation{81.3}, Time{1679248896}
+
+Total tasks received: 49
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.969676823613106, longitude=23.739330385928497}}, Elevation{81.3}, Time{1679248896}
+Location{Location{latitude=37.96979100561718, longitude=23.739614700084076}}, Elevation{81.58}, Time{1679248903}
+
+Total tasks received: 50
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.96979100561718, longitude=23.739614700084076}}, Elevation{81.58}, Time{1679248903}
+Location{Location{latitude=37.97000099514987, longitude=23.739977014286477}}, Elevation{81.8}, Time{1679248913}
+
+Total tasks received: 51
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97000099514987, longitude=23.739977014286477}}, Elevation{81.8}, Time{1679248913}
+Location{Location{latitude=37.97013209241241, longitude=23.740255964024026}}, Elevation{81.86}, Time{1679248920}
+
+Total tasks received: 52
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97013209241241, longitude=23.740255964024026}}, Elevation{81.86}, Time{1679248920}
+Location{Location{latitude=37.970367496397444, longitude=23.74055933622227}}, Elevation{82.02}, Time{1679248929}
+
+Total tasks received: 53
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.970367496397444, longitude=23.74055933622227}}, Elevation{82.02}, Time{1679248929}
+Location{Location{latitude=37.97066375502689, longitude=23.74101125739611}}, Elevation{82.18}, Time{1679248942}
+
+Total tasks received: 54
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97066375502689, longitude=23.74101125739611}}, Elevation{82.18}, Time{1679248942}
+Location{Location{latitude=37.97098201665997, longitude=23.74148752102916}}, Elevation{82.33}, Time{1679248956}
+
+Total tasks received: 55
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97098201665997, longitude=23.74148752102916}}, Elevation{82.33}, Time{1679248956}
+Location{Location{latitude=37.97116808763776, longitude=23.741747695303605}}, Elevation{82.48}, Time{1679248963}
+
+Total tasks received: 56
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97116808763776, longitude=23.741747695303605}}, Elevation{82.48}, Time{1679248963}
+Location{Location{latitude=37.971395981174176, longitude=23.74210098742876}}, Elevation{83.28}, Time{1679248973}
+
+Total tasks received: 57
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.971395981174176, longitude=23.74210098742876}}, Elevation{83.28}, Time{1679248973}
+Location{Location{latitude=37.971563021245295, longitude=23.74237993716631}}, Elevation{84.04}, Time{1679248980}
+
+Total tasks received: 58
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.971563021245295, longitude=23.74237993716631}}, Elevation{84.04}, Time{1679248980}
+Location{Location{latitude=37.971785616056515, longitude=23.742653869116392}}, Elevation{84.78}, Time{1679248988}
+
+Total tasks received: 59
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.971785616056515, longitude=23.742653869116392}}, Elevation{84.78}, Time{1679248988}
+Location{Location{latitude=37.97197591383155, longitude=23.743007920706358}}, Elevation{85.77}, Time{1679248997}
+
+Total tasks received: 60
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97197591383155, longitude=23.743007920706358}}, Elevation{85.77}, Time{1679248997}
+Location{Location{latitude=37.97219532973358, longitude=23.743307025463363}}, Elevation{86.43}, Time{1679249006}
+
+Total tasks received: 61
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97219532973358, longitude=23.743307025463363}}, Elevation{86.43}, Time{1679249006}
+Location{Location{latitude=37.97233276629795, longitude=23.7435296488116}}, Elevation{86.93}, Time{1679249012}
+
+Total tasks received: 62
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97233276629795, longitude=23.7435296488116}}, Elevation{86.93}, Time{1679249012}
+Location{Location{latitude=37.97252729145694, longitude=23.743819327385207}}, Elevation{87.68}, Time{1679249020}
+
+Total tasks received: 63
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97252729145694, longitude=23.743819327385207}}, Elevation{87.68}, Time{1679249020}
+Location{Location{latitude=37.97270490093452, longitude=23.744063408405562}}, Elevation{88.32}, Time{1679249027}
+
+Total tasks received: 64
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97270490093452, longitude=23.744063408405562}}, Elevation{88.32}, Time{1679249027}
+Location{Location{latitude=37.97283176458395, longitude=23.7442323875735}}, Elevation{88.89}, Time{1679249032}
+
+Total tasks received: 65
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97283176458395, longitude=23.7442323875735}}, Elevation{88.89}, Time{1679249032}
+Location{Location{latitude=37.97300282584959, longitude=23.744505261189364}}, Elevation{89.74}, Time{1679249039}
+
+Total tasks received: 66
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97300282584959, longitude=23.744505261189364}}, Elevation{89.74}, Time{1679249039}
+Location{Location{latitude=37.97311277391223, longitude=23.744652782685183}}, Elevation{90.1}, Time{1679249043}
+
+Total tasks received: 67
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97311277391223, longitude=23.744652782685183}}, Elevation{90.1}, Time{1679249043}
+Location{Location{latitude=37.97319312046922, longitude=23.744794939762972}}, Elevation{90.42}, Time{1679249046}
+
+Total tasks received: 68
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97319312046922, longitude=23.744794939762972}}, Elevation{90.42}, Time{1679249046}
+Location{Location{latitude=37.973392483576625, longitude=23.745067394258616}}, Elevation{91.09}, Time{1679249054}
+
+Total tasks received: 69
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.973392483576625, longitude=23.745067394258616}}, Elevation{91.09}, Time{1679249054}
+Location{Location{latitude=37.97356719925303, longitude=23.745331946851927}}, Elevation{91.8}, Time{1679249061}
+
+Total tasks received: 70
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97356719925303, longitude=23.745331946851927}}, Elevation{91.8}, Time{1679249061}
+Location{Location{latitude=37.97374269184847, longitude=23.745533112528044}}, Elevation{92.41}, Time{1679249067}
+
+Total tasks received: 71
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97374269184847, longitude=23.745533112528044}}, Elevation{92.41}, Time{1679249067}
+Location{Location{latitude=37.97394989943305, longitude=23.745828155519682}}, Elevation{93.06}, Time{1679249075}
+
+Total tasks received: 72
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97394989943305, longitude=23.745828155519682}}, Elevation{93.06}, Time{1679249075}
+Location{Location{latitude=37.97415902197752, longitude=23.746117473802133}}, Elevation{93.86}, Time{1679249083}
+
+Total tasks received: 73
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97415902197752, longitude=23.746117473802133}}, Elevation{93.86}, Time{1679249083}
+Location{Location{latitude=37.97427954006226, longitude=23.746385694703623}}, Elevation{94.54}, Time{1679249089}
+
+Total tasks received: 74
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97427954006226, longitude=23.746385694703623}}, Elevation{94.54}, Time{1679249089}
+Location{Location{latitude=37.97450227918583, longitude=23.74673845820651}}, Elevation{95.73}, Time{1679249099}
+
+Total tasks received: 75
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97450227918583, longitude=23.74673845820651}}, Elevation{95.73}, Time{1679249099}
+Location{Location{latitude=37.9747052559496, longitude=23.746971810390807}}, Elevation{96.69}, Time{1679249106}
+
+Total tasks received: 76
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.9747052559496, longitude=23.746971810390807}}, Elevation{96.69}, Time{1679249106}
+Location{Location{latitude=37.974895546155864, longitude=23.747250760128356}}, Elevation{97.78}, Time{1679249114}
+
+Total tasks received: 77
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.974895546155864, longitude=23.747250760128356}}, Elevation{97.78}, Time{1679249114}
+Location{Location{latitude=37.975097289954334, longitude=23.74754840362165}}, Elevation{98.93}, Time{1679249122}
+
+Total tasks received: 78
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975097289954334, longitude=23.74754840362165}}, Elevation{98.93}, Time{1679249122}
+Location{Location{latitude=37.975255864313546, longitude=23.747797849060035}}, Elevation{99.96}, Time{1679249129}
+
+Total tasks received: 79
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975255864313546, longitude=23.747797849060035}}, Elevation{99.96}, Time{1679249129}
+Location{Location{latitude=37.975410209694175, longitude=23.748039247871375}}, Elevation{100.95}, Time{1679249136}
+
+Total tasks received: 80
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975410209694175, longitude=23.748039247871375}}, Elevation{100.95}, Time{1679249136}
+Location{Location{latitude=37.9756519672763, longitude=23.74834417878038}}, Elevation{102.55}, Time{1679249145}
+
+Total tasks received: 81
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.9756519672763, longitude=23.74834417878038}}, Elevation{102.55}, Time{1679249145}
+Location{Location{latitude=37.975785168754456, longitude=23.748593624218763}}, Elevation{103.77}, Time{1679249151}
+
+Total tasks received: 82
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975785168754456, longitude=23.748593624218763}}, Elevation{103.77}, Time{1679249151}
+Location{Location{latitude=37.97598647004297, longitude=23.748818819311296}}, Elevation{105.11}, Time{1679249158}
+
+Total tasks received: 83
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97598647004297, longitude=23.748818819311296}}, Elevation{105.11}, Time{1679249158}
+Location{Location{latitude=37.97621481424548, longitude=23.748797361639177}}, Elevation{105.91}, Time{1679249164}
+
+Total tasks received: 84
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97621481424548, longitude=23.748797361639177}}, Elevation{105.91}, Time{1679249164}
+Location{Location{latitude=37.97652984350689, longitude=23.74847013213936}}, Elevation{106.64}, Time{1679249175}
+
+Total tasks received: 85
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97652984350689, longitude=23.74847013213936}}, Elevation{106.64}, Time{1679249175}
+Location{Location{latitude=37.97628247165052, longitude=23.74706197240654}}, Elevation{104.67}, Time{1679249207}
+
+Total tasks received: 86
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97628247165052, longitude=23.74706197240654}}, Elevation{104.67}, Time{1679249207}
+Location{Location{latitude=37.97596638184659, longitude=23.745779343602294}}, Elevation{103.78}, Time{1679249237}
+
+Total tasks received: 87
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97596638184659, longitude=23.745779343602294}}, Elevation{103.78}, Time{1679249237}
+Location{Location{latitude=37.97562386411712, longitude=23.74436015004654}}, Elevation{102.99}, Time{1679249270}
+
+Total tasks received: 88
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97562386411712, longitude=23.74436015004654}}, Elevation{102.99}, Time{1679249270}
+Location{Location{latitude=37.97531940257132, longitude=23.74304978841322}}, Elevation{102.28}, Time{1679249300}
+
+Total tasks received: 89
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97531940257132, longitude=23.74304978841322}}, Elevation{102.28}, Time{1679249300}
+Location{Location{latitude=37.975425118528946, longitude=23.74203054898756}}, Elevation{102.71}, Time{1679249323}
+
+Total tasks received: 90
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975425118528946, longitude=23.74203054898756}}, Elevation{102.71}, Time{1679249323}
+Location{Location{latitude=37.97556788662639, longitude=23.741168065469758}}, Elevation{103.18}, Time{1679249342}
+
+Total tasks received: 91
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97556788662639, longitude=23.741168065469758}}, Elevation{103.18}, Time{1679249342}
+Location{Location{latitude=37.975627087381, longitude=23.740433140199677}}, Elevation{103.86}, Time{1679249358}
+
+Total tasks received: 92
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975627087381, longitude=23.740433140199677}}, Elevation{103.86}, Time{1679249358}
+Location{Location{latitude=37.97580791475487, longitude=23.739079062557703}}, Elevation{104.01}, Time{1679249388}
+
+Total tasks received: 93
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97580791475487, longitude=23.739079062557703}}, Elevation{104.01}, Time{1679249388}
+Location{Location{latitude=37.97592208722268, longitude=23.73839241704989}}, Elevation{102.22}, Time{1679249403}
+
+Total tasks received: 94
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97592208722268, longitude=23.73839241704989}}, Elevation{102.22}, Time{1679249403}
+Location{Location{latitude=37.97597671207958, longitude=23.737576264541115}}, Elevation{99.77}, Time{1679249421}
+
+Total tasks received: 95
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97597671207958, longitude=23.737576264541115}}, Elevation{99.77}, Time{1679249421}
+Location{Location{latitude=37.976670199774524, longitude=23.737769383590187}}, Elevation{100.47}, Time{1679249441}
+
+Total tasks received: 96
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.976670199774524, longitude=23.737769383590187}}, Elevation{100.47}, Time{1679249441}
+Location{Location{latitude=37.97698311280866, longitude=23.737796205680336}}, Elevation{100.73}, Time{1679249449}
+
+Total tasks received: 97
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97698311280866, longitude=23.737796205680336}}, Elevation{100.73}, Time{1679249449}
+Location{Location{latitude=37.97737636648677, longitude=23.73767282406565}}, Elevation{100.79}, Time{1679249460}
+
+Total tasks received: 98
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97737636648677, longitude=23.73767282406565}}, Elevation{100.79}, Time{1679249460}
+Location{Location{latitude=37.97781613154516, longitude=23.737318772475685}}, Elevation{100.19}, Time{1679249474}
+
+Total tasks received: 99
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97781613154516, longitude=23.737318772475685}}, Elevation{100.19}, Time{1679249474}
+Location{Location{latitude=37.97835874200748, longitude=23.736901558870063}}, Elevation{100.02}, Time{1679249492}
+
+Total tasks received: 100
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97835874200748, longitude=23.736901558870063}}, Elevation{100.02}, Time{1679249492}
+Location{Location{latitude=37.97878581585577, longitude=23.736520685189948}}, Elevation{99.95}, Time{1679249506}
+
+Total tasks received: 101
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97878581585577, longitude=23.736520685189948}}, Elevation{99.95}, Time{1679249506}
+Location{Location{latitude=37.97916923003795, longitude=23.736212666619576}}, Elevation{99.2}, Time{1679249518}
+
+Total tasks received: 102
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97916923003795, longitude=23.736212666619576}}, Elevation{99.2}, Time{1679249518}
+Location{Location{latitude=37.97950327442217, longitude=23.735939081300057}}, Elevation{97.93}, Time{1679249529}
+
+Total tasks received: 103
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97950327442217, longitude=23.735939081300057}}, Elevation{97.93}, Time{1679249529}
+Location{Location{latitude=37.979833088904776, longitude=23.735660131562508}}, Elevation{96.16}, Time{1679249540}
+
+Total tasks received: 104
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.979833088904776, longitude=23.735660131562508}}, Elevation{96.16}, Time{1679249540}
+Location{Location{latitude=37.98020618722079, longitude=23.73537644403112}}, Elevation{94.1}, Time{1679249552}
+
+Total tasks received: 105
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98020618722079, longitude=23.73537644403112}}, Elevation{94.1}, Time{1679249552}
+Location{Location{latitude=37.98052754186235, longitude=23.73514040963781}}, Elevation{92.69}, Time{1679249562}
+
+Total tasks received: 106
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98052754186235, longitude=23.73514040963781}}, Elevation{92.69}, Time{1679249562}
+Location{Location{latitude=37.98078102740884, longitude=23.73490249876249}}, Elevation{91.5}, Time{1679249571}
+
+Total tasks received: 107
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98078102740884, longitude=23.73490249876249}}, Elevation{91.5}, Time{1679249571}
+Location{Location{latitude=37.98109815122494, longitude=23.73465573553312}}, Elevation{90.43}, Time{1679249581}
+
+Total tasks received: 108
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98109815122494, longitude=23.73465573553312}}, Elevation{90.43}, Time{1679249581}
+Location{Location{latitude=37.98139836050812, longitude=23.734366056959512}}, Elevation{89.4}, Time{1679249591}
+
+Total tasks received: 109
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98139836050812, longitude=23.734366056959512}}, Elevation{89.4}, Time{1679249591}
+Location{Location{latitude=37.98178736225963, longitude=23.734124658148172}}, Elevation{88.39}, Time{1679249603}
+
+Total tasks received: 110
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98178736225963, longitude=23.734124658148172}}, Elevation{88.39}, Time{1679249603}
+Location{Location{latitude=37.98199877539012, longitude=23.73390471700895}}, Elevation{87.79}, Time{1679249610}
+
+Total tasks received: 111
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98199877539012, longitude=23.73390471700895}}, Elevation{87.79}, Time{1679249610}
+Location{Location{latitude=37.98237931749014, longitude=23.733577487509134}}, Elevation{86.94}, Time{1679249623}
+
+Total tasks received: 112
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98237931749014, longitude=23.733577487509134}}, Elevation{86.94}, Time{1679249623}
+Location{Location{latitude=37.98278945509948, longitude=23.733298537771585}}, Elevation{85.98}, Time{1679249636}
+
+Total tasks received: 113
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98278945509948, longitude=23.733298537771585}}, Elevation{85.98}, Time{1679249636}
+Location{Location{latitude=37.98288247568165, longitude=23.73313760523069}}, Elevation{85.5}, Time{1679249640}
+
+Total tasks received: 114
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98288247568165, longitude=23.73313760523069}}, Elevation{85.5}, Time{1679249640}
+Location{Location{latitude=37.98264992400512, longitude=23.732729909460428}}, Elevation{84.21}, Time{1679249651}
+
+Total tasks received: 115
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98264992400512, longitude=23.732729909460428}}, Elevation{84.21}, Time{1679249651}
+Location{Location{latitude=37.98251884909906, longitude=23.732509968321207}}, Elevation{83.48}, Time{1679249657}
+
+Total tasks received: 116
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98251884909906, longitude=23.732509968321207}}, Elevation{83.48}, Time{1679249657}
+Location{Location{latitude=37.98234760572384, longitude=23.732180056612375}}, Elevation{82.26}, Time{1679249665}
+
+Total tasks received: 117
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98234760572384, longitude=23.732180056612375}}, Elevation{82.26}, Time{1679249665}
+Location{Location{latitude=37.9821319653496, longitude=23.73177772526014}}, Elevation{80.37}, Time{1679249675}
+
+Total tasks received: 118
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.9821319653496, longitude=23.73177772526014}}, Elevation{80.37}, Time{1679249675}
+Location{Location{latitude=37.98197974823332, longitude=23.731512186567667}}, Elevation{79.69}, Time{1679249682}
+
+Total tasks received: 119
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98197974823332, longitude=23.731512186567667}}, Elevation{79.69}, Time{1679249682}
+Location{Location{latitude=37.98152206189242, longitude=23.73192584679578}}, Elevation{80.94}, Time{1679249698}
+
+Total tasks received: 120
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98152206189242, longitude=23.73192584679578}}, Elevation{80.94}, Time{1679249698}
+Location{Location{latitude=37.98110768889182, longitude=23.732263805131655}}, Elevation{82.34}, Time{1679249712}
+
+Total tasks received: 121
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.98110768889182, longitude=23.732263805131655}}, Elevation{82.34}, Time{1679249712}
+Location{Location{latitude=37.980558006811066, longitude=23.732714416246157}}, Elevation{84.54}, Time{1679249730}
+
+Total tasks received: 122
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.980558006811066, longitude=23.732714416246157}}, Elevation{84.54}, Time{1679249730}
+Location{Location{latitude=37.97998143324145, longitude=23.733175182919215}}, Elevation{86.07}, Time{1679249749}
+
+Total tasks received: 123
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97998143324145, longitude=23.733175182919215}}, Elevation{86.07}, Time{1679249749}
+Location{Location{latitude=37.97954590955547, longitude=23.733641887287806}}, Elevation{87.24}, Time{1679249765}
+
+Total tasks received: 124
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97954590955547, longitude=23.733641887287806}}, Elevation{87.24}, Time{1679249765}
+Location{Location{latitude=37.97930066207053, longitude=23.73376526890249}}, Elevation{87.53}, Time{1679249772}
+
+Total tasks received: 125
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97930066207053, longitude=23.73376526890249}}, Elevation{87.53}, Time{1679249772}
+Location{Location{latitude=37.97868904024683, longitude=23.73438356131276}}, Elevation{89.26}, Time{1679249794}
+
+Total tasks received: 126
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97868904024683, longitude=23.73438356131276}}, Elevation{89.26}, Time{1679249794}
+Location{Location{latitude=37.97805491010762, longitude=23.734882274981004}}, Elevation{90.94}, Time{1679249815}
+
+Total tasks received: 127
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97805491010762, longitude=23.734882274981004}}, Elevation{90.94}, Time{1679249815}
+Location{Location{latitude=37.97720453584287, longitude=23.735627929087144}}, Elevation{92.15}, Time{1679249844}
+
+Total tasks received: 128
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97720453584287, longitude=23.735627929087144}}, Elevation{92.15}, Time{1679249844}
+Location{Location{latitude=37.97687048099584, longitude=23.735880056734544}}, Elevation{92.61}, Time{1679249855}
+
+Total tasks received: 129
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.97687048099584, longitude=23.735880056734544}}, Elevation{92.61}, Time{1679249855}
+Location{Location{latitude=37.976620996004385, longitude=23.735863963480455}}, Elevation{92.97}, Time{1679249862}
+
+Total tasks received: 130
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.976620996004385, longitude=23.735863963480455}}, Elevation{92.97}, Time{1679249862}
+Location{Location{latitude=37.975851392891364, longitude=23.7357459462838}}, Elevation{94.0}, Time{1679249884}
+
+Total tasks received: 131
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975851392891364, longitude=23.7357459462838}}, Elevation{94.0}, Time{1679249884}
+Location{Location{latitude=37.975576532681075, longitude=23.73570839535759}}, Elevation{93.75}, Time{1679249891}
+
+Total tasks received: 132
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.975576532681075, longitude=23.73570839535759}}, Elevation{93.75}, Time{1679249891}
+Location{Location{latitude=37.97541584469677, longitude=23.73568693768547}}, Elevation{93.68}, Time{1679249895}
+
+Total tasks received: 133
+Intermediate results totalDistance: [0.041399492265158454, 0.04049532608707051, 0.025968234212680498, 0.04437223589017616, 0.02840813249748303, 0.031169356063886166, 0.024469415607915337, 0.024018038983746458, 0.020329903929517657, 0.015994447284914854, 0.018490271286028696, 0.03429297020065006, 0.010304784622458235, 0.032837296299015016, 0.02362859632116611, 0.011040337080533699, 0.010722849036457949, 0.01238987613054584, 0.015533586596082284, 0.017633627820656726, 0.013534975437215283, 0.013099138842144104, 0.01283484554320707, 0.01115007430169712, 0.011216814662977633, 0.018326895095248975, 0.009784938193293933, 0.014758173240483487, 0.016678430215276995, 0.007787327371641126, 0.01515916895930441, 0.010622021535842513, 0.019240937603582423, 0.02404894539632922, 0.02667742916437972, 0.026195470371206623, 0.01918781708367849, 0.019672928476785007, 0.02803355584301874, 0.0336810240788003, 0.02574114802864767, 0.026098417435078267, 0.04150216998843209, 0.033963753134694304, 0.03850536211661235, 0.014998072807013036, 0.03820622613565477, 0.02863838999596822, 0.02266996844111254, 0.027970342480920035, 0.0394196669655701, 0.028467799052184047, 0.0373143645464254, 0.0515219864535457, 0.054729287713839676, 0.03079292783082386, 0.040014974267167575, 0.030706468537018677, 0.03448487087153943, 0.03756215856887141, 0.03581427213295468, 0.024786151644399988, 0.033355944007016615, 0.029116691983940915, 0.0204545615810538, 0.03055997128349801, 0.017795435523122696, 0.015332618808262567, 0.03258486668422038, 0.030251735516923933, 0.026300484717346955, 0.034636534708616294, 0.034406986304760155, 0.02706162604630546, 0.03961729607934349, 0.03045935736690272, 0.03233505118702279, 0.034407602817060894, 0.02808856294640988, 0.027244421180666167, 0.03790817197616419, 0.02640880373879038, 0.029843691477363283, 0.025460280586155334, 0.04527398690843888, 0.12645445203737682, 0.11779020262839815, 0.1300946320593918, 0.11974147418898841, 0.09010863574404837, 0.07724730471751015, 0.06475310572526112, 0.12037849198975534, 0.06150999219906781, 0.07179441359333562, 0.07894830812945144, 0.03487367606235635, 0.045045233663577454, 0.057915361278804596, 0.07055225042900329, 0.058048039413473855, 0.05046267265225866, 0.04421170990100542, 0.04407629857139686, 0.04836706547673412, 0.04128948518788349, 0.03506095023313983, 0.04136672144877822, 0.041939709747605254, 0.04815215682993556, 0.03040093978505567, 0.05111781506091471, 0.05174503590510697, 0.017490788574228873, 0.04410702527270366, 0.02416624870303941, 0.03462131098150163, 0.042642163011571886, 0.028776922021803767, 0.06248573781727041, 0.05477574231237017, 0.07277133665721366, 0.07577113928832045, 0.06339172599023944, 0.0293361922654501, 0.0869599494299292, 0.08296174591121844, 0.11494572545534532, 0.04322191585079203, 0.027777304452950815, 0.08619890217245933, 0.030739779602138664, 0.01796640589047867]
+Intermediate results totalTime: [10, 10, 6, 11, 7, 8, 6, 6, 5, 4, 4, 8, 2, 8, 6, 2, 2, 3, 3, 4, 3, 3, 3, 2, 2, 4, 2, 3, 4, 2, 3, 2, 4, 6, 6, 6, 4, 5, 7, 8, 6, 6, 10, 8, 9, 3, 9, 7, 5, 7, 10, 7, 9, 13, 14, 7, 10, 7, 8, 9, 9, 6, 8, 7, 5, 7, 4, 3, 8, 7, 6, 8, 8, 6, 10, 7, 8, 8, 7, 7, 9, 6, 7, 6, 11, 32, 30, 33, 30, 23, 19, 16, 30, 15, 18, 20, 8, 11, 14, 18, 14, 12, 11, 11, 12, 10, 9, 10, 10, 12, 7, 13, 13, 4, 11, 6, 8, 10, 7, 16, 14, 18, 19, 16, 7, 22, 21, 29, 11, 7, 22, 7, 4]
+Intermediate results totalElevationGain: [0.5300000000000011, 0.9699999999999989, 0.9400000000000119, 1.769999999999996, 1.2199999999999989, 0.8199999999999932, 0.4200000000000017, 0.5900000000000034, 0.28000000000000114, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.45000000000000284, 0.980000000000004, 1.4299999999999926, 0.5500000000000114, 1.269999999999996, 0.9000000000000057, 0.5099999999999909, 0.28000000000000114, 0.21999999999999886, 0.060000000000002274, 0.1599999999999966, 0.1600000000000108, 0.14999999999999147, 0.15000000000000568, 0.7999999999999972, 0.7600000000000051, 0.7399999999999949, 0.9899999999999949, 0.6600000000000108, 0.5, 0.75, 0.6399999999999864, 0.5700000000000074, 0.8499999999999943, 0.35999999999999943, 0.3200000000000074, 0.6700000000000017, 0.7099999999999937, 0.6099999999999994, 0.6500000000000057, 0.7999999999999972, 0.6800000000000068, 1.1899999999999977, 0.9599999999999937, 1.0900000000000034, 1.1500000000000057, 1.029999999999987, 0.9900000000000091, 1.5999999999999943, 1.2199999999999989, 1.3400000000000034, 0.7999999999999972, 0.730000000000004, 0.0, 0.0, 0.0, 0.0, 0.4299999999999926, 0.4700000000000131, 0.6799999999999926, 0.15000000000000568, 0.0, 0.0, 0.7000000000000028, 0.2600000000000051, 0.060000000000002274, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.25, 1.4000000000000057, 2.200000000000003, 1.529999999999987, 1.1700000000000017, 0.29000000000000625, 1.730000000000004, 1.6799999999999926, 1.210000000000008, 0.45999999999999375, 0.35999999999999943, 1.0300000000000011, 0.0, 0.0]
+Received task size: 37
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.95001155239993, longitude=23.69503479744284}}, Elevation{12.08}, Time{1679247361}
+Location{Location{latitude=37.949571620793144, longitude=23.695699985278534}}, Elevation{9.98}, Time{1679247391}
+
+Total tasks received: 1
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.949571620793144, longitude=23.695699985278534}}, Elevation{9.98}, Time{1679247391}
+Location{Location{latitude=37.94923321007226, longitude=23.696236427081512}}, Elevation{8.9}, Time{1679247415}
+
+Total tasks received: 2
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94923321007226, longitude=23.696236427081512}}, Elevation{8.9}, Time{1679247415}
+Location{Location{latitude=37.948674828974916, longitude=23.69680505539267}}, Elevation{9.02}, Time{1679247446}
+
+Total tasks received: 3
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.948674828974916, longitude=23.69680505539267}}, Elevation{9.02}, Time{1679247446}
+Location{Location{latitude=37.94788801204387, longitude=23.69558196808188}}, Elevation{6.58}, Time{1679247501}
+
+Total tasks received: 4
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94788801204387, longitude=23.69558196808188}}, Elevation{6.58}, Time{1679247501}
+Location{Location{latitude=37.94715194986727, longitude=23.694605644000458}}, Elevation{4.69}, Time{1679247548}
+
+Total tasks received: 5
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94715194986727, longitude=23.694605644000458}}, Elevation{4.69}, Time{1679247548}
+Location{Location{latitude=37.946653163250694, longitude=23.695273887184726}}, Elevation{5.46}, Time{1679247580}
+
+Total tasks received: 6
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.946653163250694, longitude=23.695273887184726}}, Elevation{5.46}, Time{1679247580}
+Location{Location{latitude=37.94606938059409, longitude=23.696046363381015}}, Elevation{5.77}, Time{1679247617}
+
+Total tasks received: 7
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94606938059409, longitude=23.696046363381015}}, Elevation{5.77}, Time{1679247617}
+Location{Location{latitude=37.94524023203743, longitude=23.695102225807773}}, Elevation{4.37}, Time{1679247666}
+
+Total tasks received: 8
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94524023203743, longitude=23.695102225807773}}, Elevation{4.37}, Time{1679247666}
+Location{Location{latitude=37.944461839163594, longitude=23.694050799873935}}, Elevation{3.8}, Time{1679247716}
+
+Total tasks received: 9
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.944461839163594, longitude=23.694050799873935}}, Elevation{3.8}, Time{1679247716}
+Location{Location{latitude=37.943697486759284, longitude=23.69324249390282}}, Elevation{2.53}, Time{1679247760}
+
+Total tasks received: 10
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.943697486759284, longitude=23.69324249390282}}, Elevation{2.53}, Time{1679247760}
+Location{Location{latitude=37.943405584269506, longitude=23.69371456268944}}, Elevation{2.34}, Time{1679247781}
+
+Total tasks received: 11
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.943405584269506, longitude=23.69371456268944}}, Elevation{2.34}, Time{1679247781}
+Location{Location{latitude=37.943189829510054, longitude=23.694036427771227}}, Elevation{2.28}, Time{1679247795}
+
+Total tasks received: 12
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.943189829510054, longitude=23.694036427771227}}, Elevation{2.28}, Time{1679247795}
+Location{Location{latitude=37.942627171961284, longitude=23.694884005819933}}, Elevation{2.4}, Time{1679247833}
+
+Total tasks received: 13
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.942627171961284, longitude=23.694884005819933}}, Elevation{2.4}, Time{1679247833}
+Location{Location{latitude=37.94196891990529, longitude=23.695816839239242}}, Elevation{2.56}, Time{1679247876}
+
+Total tasks received: 14
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94196891990529, longitude=23.695816839239242}}, Elevation{2.56}, Time{1679247876}
+Location{Location{latitude=37.941774313796756, longitude=23.695747101804855}}, Elevation{3.57}, Time{1679247884}
+
+Total tasks received: 15
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.941774313796756, longitude=23.695747101804855}}, Elevation{3.57}, Time{1679247884}
+Location{Location{latitude=37.941499326025664, longitude=23.695532525083664}}, Elevation{3.08}, Time{1679247898}
+
+Total tasks received: 16
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.941499326025664, longitude=23.695532525083664}}, Elevation{3.08}, Time{1679247898}
+Location{Location{latitude=37.94130471867361, longitude=23.695323312780502}}, Elevation{2.8}, Time{1679247909}
+
+Total tasks received: 17
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94130471867361, longitude=23.695323312780502}}, Elevation{2.8}, Time{1679247909}
+Location{Location{latitude=37.94097984389345, longitude=23.694886713748932}}, Elevation{2.67}, Time{1679247930}
+
+Total tasks received: 18
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94097984389345, longitude=23.694886713748932}}, Elevation{2.67}, Time{1679247930}
+Location{Location{latitude=37.94045524527583, longitude=23.69421079707718}}, Elevation{2.62}, Time{1679247963}
+
+Total tasks received: 19
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94045524527583, longitude=23.69421079707718}}, Elevation{2.62}, Time{1679247963}
+Location{Location{latitude=37.94014217657466, longitude=23.693808465724945}}, Elevation{2.68}, Time{1679247982}
+
+Total tasks received: 20
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94014217657466, longitude=23.693808465724945}}, Elevation{2.68}, Time{1679247982}
+Location{Location{latitude=37.93978679967615, longitude=23.693347125774384}}, Elevation{2.67}, Time{1679248004}
+
+Total tasks received: 21
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.93978679967615, longitude=23.693347125774384}}, Elevation{2.67}, Time{1679248004}
+Location{Location{latitude=37.93952161016134, longitude=23.69299274828799}}, Elevation{3.7}, Time{1679248021}
+
+Total tasks received: 22
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.93952161016134, longitude=23.69299274828799}}, Elevation{3.7}, Time{1679248021}
+Location{Location{latitude=37.93923603716365, longitude=23.692619921234918}}, Elevation{5.81}, Time{1679248039}
+
+Total tasks received: 23
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.93923603716365, longitude=23.692619921234918}}, Elevation{5.81}, Time{1679248039}
+Location{Location{latitude=37.9387847281908, longitude=23.692015802071865}}, Elevation{4.86}, Time{1679248068}
+
+Total tasks received: 24
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.9387847281908, longitude=23.692015802071865}}, Elevation{4.86}, Time{1679248068}
+Location{Location{latitude=37.93887357378787, longitude=23.691527640031154}}, Elevation{2.31}, Time{1679248085}
+
+Total tasks received: 25
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.93887357378787, longitude=23.691527640031154}}, Elevation{2.31}, Time{1679248085}
+Location{Location{latitude=37.93877203595387, longitude=23.691431080506618}}, Elevation{2.09}, Time{1679248090}
+
+Total tasks received: 26
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.93877203595387, longitude=23.691431080506618}}, Elevation{2.09}, Time{1679248090}
+Location{Location{latitude=37.93911472558143, longitude=23.690717612908657}}, Elevation{2.47}, Time{1679248119}
+
+Total tasks received: 27
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.93911472558143, longitude=23.690717612908657}}, Elevation{2.47}, Time{1679248119}
+Location{Location{latitude=37.939673179328615, longitude=23.690224610251718}}, Elevation{2.92}, Time{1679248149}
+
+Total tasks received: 28
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.939673179328615, longitude=23.690224610251718}}, Elevation{2.92}, Time{1679248149}
+Location{Location{latitude=37.94003701812341, longitude=23.690106593055063}}, Elevation{2.97}, Time{1679248165}
+
+Total tasks received: 29
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94003701812341, longitude=23.690106593055063}}, Elevation{2.97}, Time{1679248165}
+Location{Location{latitude=37.94053200521952, longitude=23.6907074078744}}, Elevation{2.16}, Time{1679248195}
+
+Total tasks received: 30
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94053200521952, longitude=23.6907074078744}}, Elevation{2.16}, Time{1679248195}
+Location{Location{latitude=37.94081968849565, longitude=23.69096489993983}}, Elevation{2.25}, Time{1679248210}
+
+Total tasks received: 31
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94081968849565, longitude=23.69096489993983}}, Elevation{2.25}, Time{1679248210}
+Location{Location{latitude=37.94162423069252, longitude=23.69053836283811}}, Elevation{2.57}, Time{1679248248}
+
+Total tasks received: 32
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94162423069252, longitude=23.69053836283811}}, Elevation{2.57}, Time{1679248248}
+Location{Location{latitude=37.942208048664426, longitude=23.691133813239418}}, Elevation{2.89}, Time{1679248281}
+
+Total tasks received: 33
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.942208048664426, longitude=23.691133813239418}}, Elevation{2.89}, Time{1679248281}
+Location{Location{latitude=37.94297477498236, longitude=23.69215686087734}}, Elevation{3.0}, Time{1679248330}
+
+Total tasks received: 34
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94297477498236, longitude=23.69215686087734}}, Elevation{3.0}, Time{1679248330}
+Location{Location{latitude=37.94371087900379, longitude=23.69313854937679}}, Elevation{2.58}, Time{1679248377}
+
+Total tasks received: 35
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.94371087900379, longitude=23.69313854937679}}, Elevation{2.58}, Time{1679248377}
+Location{Location{latitude=37.944477889945155, longitude=23.693989646908282}}, Elevation{3.79}, Time{1679248422}
+
+Total tasks received: 36
+Received task: Username: user1
+Waypoints: 
+Location{Location{latitude=37.944477889945155, longitude=23.693989646908282}}, Elevation{3.79}, Time{1679248422}
+Location{Location{latitude=37.94513360173761, longitude=23.693201077457903}}, Elevation{2.99}, Time{1679248462}
+
+Total tasks received: 37
+Intermediate results totalDistance: [0.07612391739051828, 0.060236679372563356, 0.0796305732857909, 0.13840587200045562, 0.11843903354307828, 0.08068178466848, 0.09381871152609562, 0.12391273784500237, 0.12645937690110842, 0.11066902751747375, 0.05260360757939168, 0.03704299108200785, 0.09715211797264703, 0.10976761619851767, 0.02248675103190407, 0.035903183747402666, 0.02836991502356287, 0.05263883152053597, 0.08316284481851803, 0.04956486820937876, 0.0565534177061838, 0.04284053125094741, 0.04557746670545992, 0.07297323450754051, 0.043934898707805904, 0.014113115004857778, 0.07325829129345494, 0.07566531194196476, 0.04175982159306146, 0.07619333233019175, 0.03915566599943876, 0.0969657404640303, 0.0833116991685867, 0.12376153649073156, 0.11878622936774734, 0.11333130922915735, 0.10048715201230157]
+Intermediate results totalTime: [30, 24, 31, 55, 47, 32, 37, 49, 50, 44, 21, 14, 38, 43, 8, 14, 11, 21, 33, 19, 22, 17, 18, 29, 17, 5, 29, 30, 16, 30, 15, 38, 33, 49, 47, 45, 40]
+Intermediate results totalElevationGain: [0.0, 0.0, 0.11999999999999922, 0.0, 0.0, 0.7699999999999996, 0.3099999999999996, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1200000000000001, 0.16000000000000014, 1.0099999999999998, 0.0, 0.0, 0.0, 0.0, 0.06000000000000005, 0.0, 1.0300000000000002, 2.1099999999999994, 0.0, 0.0, 0.0, 0.38000000000000034, 0.44999999999999973, 0.050000000000000266, 0.0, 0.08999999999999986, 0.31999999999999984, 0.3200000000000003, 0.10999999999999988, 0.0, 1.21, 0.0]
+Received task size: 133
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975033880710484, longitude=23.734082814713215}}, Elevation{84.49}, Time{1679248639}
+Location{Location{latitude=37.97466276547986, longitude=23.734044934572992}}, Elevation{85.02}, Time{1679248649}
+
+Total tasks received: 1
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97466276547986, longitude=23.734044934572992}}, Elevation{85.02}, Time{1679248649}
+Location{Location{latitude=37.974307555569304, longitude=23.733943010630426}}, Elevation{85.99}, Time{1679248659}
+
+Total tasks received: 2
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.974307555569304, longitude=23.733943010630426}}, Elevation{85.99}, Time{1679248659}
+Location{Location{latitude=37.97407497672046, longitude=23.733916188540277}}, Elevation{86.93}, Time{1679248665}
+
+Total tasks received: 3
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97407497672046, longitude=23.733916188540277}}, Elevation{86.93}, Time{1679248665}
+Location{Location{latitude=37.97368170535409, longitude=23.7338303578518}}, Elevation{88.7}, Time{1679248676}
+
+Total tasks received: 4
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97368170535409, longitude=23.7338303578518}}, Elevation{88.7}, Time{1679248676}
+Location{Location{latitude=37.973432209523935, longitude=23.733760620417414}}, Elevation{89.92}, Time{1679248683}
+
+Total tasks received: 5
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.973432209523935, longitude=23.733760620417414}}, Elevation{89.92}, Time{1679248683}
+Location{Location{latitude=37.973157340254694, longitude=23.733690882983026}}, Elevation{90.74}, Time{1679248691}
+
+Total tasks received: 6
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.973157340254694, longitude=23.733690882983026}}, Elevation{90.74}, Time{1679248691}
+Location{Location{latitude=37.97293744409827, longitude=23.733680154146967}}, Elevation{91.16}, Time{1679248697}
+
+Total tasks received: 7
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97293744409827, longitude=23.733680154146967}}, Elevation{91.16}, Time{1679248697}
+Location{Location{latitude=37.97273869123628, longitude=23.73357286578637}}, Elevation{91.75}, Time{1679248703}
+
+Total tasks received: 8
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97273869123628, longitude=23.73357286578637}}, Elevation{91.75}, Time{1679248703}
+Location{Location{latitude=37.97255685304009, longitude=23.733548725905237}}, Elevation{92.03}, Time{1679248708}
+
+Total tasks received: 9
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97255685304009, longitude=23.733548725905237}}, Elevation{92.03}, Time{1679248708}
+Location{Location{latitude=37.97242576010758, longitude=23.73347362405282}}, Elevation{92.03}, Time{1679248712}
+
+Total tasks received: 10
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97242576010758, longitude=23.73347362405282}}, Elevation{92.03}, Time{1679248712}
+Location{Location{latitude=37.97226295081712, longitude=23.733430708708582}}, Elevation{91.62}, Time{1679248716}
+
+Total tasks received: 11
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97226295081712, longitude=23.733430708708582}}, Elevation{91.62}, Time{1679248716}
+Location{Location{latitude=37.97206029751553, longitude=23.73372561207019}}, Elevation{89.9}, Time{1679248724}
+
+Total tasks received: 12
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97206029751553, longitude=23.73372561207019}}, Elevation{89.9}, Time{1679248724}
+Location{Location{latitude=37.97201800921233, longitude=23.733830218221772}}, Elevation{89.84}, Time{1679248726}
+
+Total tasks received: 13
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97201800921233, longitude=23.733830218221772}}, Elevation{89.84}, Time{1679248726}
+Location{Location{latitude=37.97179215588327, longitude=23.73358886353126}}, Elevation{88.62}, Time{1679248734}
+
+Total tasks received: 14
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97179215588327, longitude=23.73358886353126}}, Elevation{88.62}, Time{1679248734}
+Location{Location{latitude=37.97161031534244, longitude=23.733449388662486}}, Elevation{87.73}, Time{1679248740}
+
+Total tasks received: 15
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97161031534244, longitude=23.733449388662486}}, Elevation{87.73}, Time{1679248740}
+Location{Location{latitude=37.9715215093332, longitude=23.733393062273173}}, Elevation{87.31}, Time{1679248742}
+
+Total tasks received: 16
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.9715215093332, longitude=23.733393062273173}}, Elevation{87.31}, Time{1679248742}
+Location{Location{latitude=37.971445389811215, longitude=23.733317960420756}}, Elevation{86.89}, Time{1679248744}
+
+Total tasks received: 17
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971445389811215, longitude=23.733317960420756}}, Elevation{86.89}, Time{1679248744}
+Location{Location{latitude=37.971352354732716, longitude=23.733240176359324}}, Elevation{86.34}, Time{1679248747}
+
+Total tasks received: 18
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971352354732716, longitude=23.733240176359324}}, Elevation{86.34}, Time{1679248747}
+Location{Location{latitude=37.971244518471444, longitude=23.7331275235807}}, Elevation{85.66}, Time{1679248750}
+
+Total tasks received: 19
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971244518471444, longitude=23.7331275235807}}, Elevation{85.66}, Time{1679248750}
+Location{Location{latitude=37.971085935446546, longitude=23.7331275235807}}, Elevation{85.0}, Time{1679248754}
+
+Total tasks received: 20
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971085935446546, longitude=23.7331275235807}}, Elevation{85.0}, Time{1679248754}
+Location{Location{latitude=37.97096964101056, longitude=23.73317312113395}}, Elevation{84.38}, Time{1679248757}
+
+Total tasks received: 21
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97096964101056, longitude=23.73317312113395}}, Elevation{84.38}, Time{1679248757}
+Location{Location{latitude=37.970859689738035, longitude=23.73322676531425}}, Elevation{83.99}, Time{1679248760}
+
+Total tasks received: 22
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970859689738035, longitude=23.73322676531425}}, Elevation{83.99}, Time{1679248760}
+Location{Location{latitude=37.970758196109514, longitude=23.733296502748637}}, Elevation{83.54}, Time{1679248763}
+
+Total tasks received: 23
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970758196109514, longitude=23.733296502748637}}, Elevation{83.54}, Time{1679248763}
+Location{Location{latitude=37.97068419025026, longitude=23.733382333437113}}, Elevation{83.23}, Time{1679248765}
+
+Total tasks received: 24
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97068419025026, longitude=23.733382333437113}}, Elevation{83.23}, Time{1679248765}
+Location{Location{latitude=37.97062921442083, longitude=23.73348962179771}}, Elevation{82.93}, Time{1679248767}
+
+Total tasks received: 25
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97062921442083, longitude=23.73348962179771}}, Elevation{82.93}, Time{1679248767}
+Location{Location{latitude=37.970559064635104, longitude=23.733678812235546}}, Elevation{82.44}, Time{1679248771}
+
+Total tasks received: 26
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970559064635104, longitude=23.733678812235546}}, Elevation{82.44}, Time{1679248771}
+Location{Location{latitude=37.970508317630575, longitude=23.733770007342052}}, Elevation{82.25}, Time{1679248773}
+
+Total tasks received: 27
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970508317630575, longitude=23.733770007342052}}, Elevation{82.25}, Time{1679248773}
+Location{Location{latitude=37.97044065490332, longitude=23.733914846628856}}, Elevation{81.91}, Time{1679248776}
+
+Total tasks received: 28
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97044065490332, longitude=23.733914846628856}}, Elevation{81.91}, Time{1679248776}
+Location{Location{latitude=37.97038567889148, longitude=23.73409187242384}}, Elevation{81.42}, Time{1679248780}
+
+Total tasks received: 29
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97038567889148, longitude=23.73409187242384}}, Elevation{81.42}, Time{1679248780}
+Location{Location{latitude=37.97035184747912, longitude=23.73416965648527}}, Elevation{81.16}, Time{1679248782}
+
+Total tasks received: 30
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97035184747912, longitude=23.73416965648527}}, Elevation{81.16}, Time{1679248782}
+Location{Location{latitude=37.97029687140082, longitude=23.73432790681715}}, Elevation{80.69}, Time{1679248785}
+
+Total tasks received: 31
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97029687140082, longitude=23.73432790681715}}, Elevation{80.69}, Time{1679248785}
+Location{Location{latitude=37.97025246761518, longitude=23.734435195177745}}, Elevation{80.36}, Time{1679248787}
+
+Total tasks received: 32
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97025246761518, longitude=23.734435195177745}}, Elevation{80.36}, Time{1679248787}
+Location{Location{latitude=37.970159431024875, longitude=23.734620267599773}}, Elevation{79.78}, Time{1679248791}
+
+Total tasks received: 33
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970159431024875, longitude=23.734620267599773}}, Elevation{79.78}, Time{1679248791}
+Location{Location{latitude=37.970058486292615, longitude=23.734862899973006}}, Elevation{79.06}, Time{1679248797}
+
+Total tasks received: 34
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970058486292615, longitude=23.734862899973006}}, Elevation{79.06}, Time{1679248797}
+Location{Location{latitude=37.969967563931355, longitude=23.73514453191957}}, Elevation{78.31}, Time{1679248803}
+
+Total tasks received: 35
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.969967563931355, longitude=23.73514453191957}}, Elevation{78.31}, Time{1679248803}
+Location{Location{latitude=37.96985549667996, longitude=23.73540738840303}}, Elevation{77.58}, Time{1679248809}
+
+Total tasks received: 36
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96985549667996, longitude=23.73540738840303}}, Elevation{77.58}, Time{1679248809}
+Location{Location{latitude=37.96975400166315, longitude=23.735584414198012}}, Elevation{77.11}, Time{1679248813}
+
+Total tasks received: 37
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96975400166315, longitude=23.735584414198012}}, Elevation{77.11}, Time{1679248813}
+Location{Location{latitude=37.96967999479161, longitude=23.735788262083144}}, Elevation{76.67}, Time{1679248818}
+
+Total tasks received: 38
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96967999479161, longitude=23.735788262083144}}, Elevation{76.67}, Time{1679248818}
+Location{Location{latitude=37.96958272850412, longitude=23.736083305074782}}, Elevation{76.1}, Time{1679248825}
+
+Total tasks received: 39
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96958272850412, longitude=23.736083305074782}}, Elevation{76.1}, Time{1679248825}
+Location{Location{latitude=37.96944528679123, longitude=23.736425700460426}}, Elevation{75.68}, Time{1679248833}
+
+Total tasks received: 40
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96944528679123, longitude=23.736425700460426}}, Elevation{75.68}, Time{1679248833}
+Location{Location{latitude=37.96937973757602, longitude=23.73670733240699}}, Elevation{75.41}, Time{1679248839}
+
+Total tasks received: 41
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96937973757602, longitude=23.73670733240699}}, Elevation{75.41}, Time{1679248839}
+Location{Location{latitude=37.96930361583327, longitude=23.736988964353554}}, Elevation{75.21}, Time{1679248845}
+
+Total tasks received: 42
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96930361583327, longitude=23.736988964353554}}, Elevation{75.21}, Time{1679248845}
+Location{Location{latitude=37.96921879696766, longitude=23.737450024549535}}, Elevation{75.66}, Time{1679248855}
+
+Total tasks received: 43
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96921879696766, longitude=23.737450024549535}}, Elevation{75.66}, Time{1679248855}
+Location{Location{latitude=37.969209670236594, longitude=23.73783730215352}}, Elevation{76.64}, Time{1679248863}
+
+Total tasks received: 44
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.969209670236594, longitude=23.73783730215352}}, Elevation{76.64}, Time{1679248863}
+Location{Location{latitude=37.9692604181388, longitude=23.73827182001393}}, Elevation{78.07}, Time{1679248872}
+
+Total tasks received: 45
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.9692604181388, longitude=23.73827182001393}}, Elevation{78.07}, Time{1679248872}
+Location{Location{latitude=37.969281563087705, longitude=23.73844079918187}}, Elevation{78.62}, Time{1679248875}
+
+Total tasks received: 46
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.969281563087705, longitude=23.73844079918187}}, Elevation{78.62}, Time{1679248875}
+Location{Location{latitude=37.96944860796988, longitude=23.738821672861985}}, Elevation{79.89}, Time{1679248884}
+
+Total tasks received: 47
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96944860796988, longitude=23.738821672861985}}, Elevation{79.89}, Time{1679248884}
+Location{Location{latitude=37.969575477246735, longitude=23.739105987017563}}, Elevation{80.79}, Time{1679248891}
+
+Total tasks received: 48
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.969575477246735, longitude=23.739105987017563}}, Elevation{80.79}, Time{1679248891}
+Location{Location{latitude=37.969676823613106, longitude=23.739330385928497}}, Elevation{81.3}, Time{1679248896}
+
+Total tasks received: 49
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.969676823613106, longitude=23.739330385928497}}, Elevation{81.3}, Time{1679248896}
+Location{Location{latitude=37.96979100561718, longitude=23.739614700084076}}, Elevation{81.58}, Time{1679248903}
+
+Total tasks received: 50
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.96979100561718, longitude=23.739614700084076}}, Elevation{81.58}, Time{1679248903}
+Location{Location{latitude=37.97000099514987, longitude=23.739977014286477}}, Elevation{81.8}, Time{1679248913}
+
+Total tasks received: 51
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97000099514987, longitude=23.739977014286477}}, Elevation{81.8}, Time{1679248913}
+Location{Location{latitude=37.97013209241241, longitude=23.740255964024026}}, Elevation{81.86}, Time{1679248920}
+
+Total tasks received: 52
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97013209241241, longitude=23.740255964024026}}, Elevation{81.86}, Time{1679248920}
+Location{Location{latitude=37.970367496397444, longitude=23.74055933622227}}, Elevation{82.02}, Time{1679248929}
+
+Total tasks received: 53
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.970367496397444, longitude=23.74055933622227}}, Elevation{82.02}, Time{1679248929}
+Location{Location{latitude=37.97066375502689, longitude=23.74101125739611}}, Elevation{82.18}, Time{1679248942}
+
+Total tasks received: 54
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97066375502689, longitude=23.74101125739611}}, Elevation{82.18}, Time{1679248942}
+Location{Location{latitude=37.97098201665997, longitude=23.74148752102916}}, Elevation{82.33}, Time{1679248956}
+
+Total tasks received: 55
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97098201665997, longitude=23.74148752102916}}, Elevation{82.33}, Time{1679248956}
+Location{Location{latitude=37.97116808763776, longitude=23.741747695303605}}, Elevation{82.48}, Time{1679248963}
+
+Total tasks received: 56
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97116808763776, longitude=23.741747695303605}}, Elevation{82.48}, Time{1679248963}
+Location{Location{latitude=37.971395981174176, longitude=23.74210098742876}}, Elevation{83.28}, Time{1679248973}
+
+Total tasks received: 57
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971395981174176, longitude=23.74210098742876}}, Elevation{83.28}, Time{1679248973}
+Location{Location{latitude=37.971563021245295, longitude=23.74237993716631}}, Elevation{84.04}, Time{1679248980}
+
+Total tasks received: 58
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971563021245295, longitude=23.74237993716631}}, Elevation{84.04}, Time{1679248980}
+Location{Location{latitude=37.971785616056515, longitude=23.742653869116392}}, Elevation{84.78}, Time{1679248988}
+
+Total tasks received: 59
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.971785616056515, longitude=23.742653869116392}}, Elevation{84.78}, Time{1679248988}
+Location{Location{latitude=37.97197591383155, longitude=23.743007920706358}}, Elevation{85.77}, Time{1679248997}
+
+Total tasks received: 60
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97197591383155, longitude=23.743007920706358}}, Elevation{85.77}, Time{1679248997}
+Location{Location{latitude=37.97219532973358, longitude=23.743307025463363}}, Elevation{86.43}, Time{1679249006}
+
+Total tasks received: 61
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97219532973358, longitude=23.743307025463363}}, Elevation{86.43}, Time{1679249006}
+Location{Location{latitude=37.97233276629795, longitude=23.7435296488116}}, Elevation{86.93}, Time{1679249012}
+
+Total tasks received: 62
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97233276629795, longitude=23.7435296488116}}, Elevation{86.93}, Time{1679249012}
+Location{Location{latitude=37.97252729145694, longitude=23.743819327385207}}, Elevation{87.68}, Time{1679249020}
+
+Total tasks received: 63
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97252729145694, longitude=23.743819327385207}}, Elevation{87.68}, Time{1679249020}
+Location{Location{latitude=37.97270490093452, longitude=23.744063408405562}}, Elevation{88.32}, Time{1679249027}
+
+Total tasks received: 64
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97270490093452, longitude=23.744063408405562}}, Elevation{88.32}, Time{1679249027}
+Location{Location{latitude=37.97283176458395, longitude=23.7442323875735}}, Elevation{88.89}, Time{1679249032}
+
+Total tasks received: 65
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97283176458395, longitude=23.7442323875735}}, Elevation{88.89}, Time{1679249032}
+Location{Location{latitude=37.97300282584959, longitude=23.744505261189364}}, Elevation{89.74}, Time{1679249039}
+
+Total tasks received: 66
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97300282584959, longitude=23.744505261189364}}, Elevation{89.74}, Time{1679249039}
+Location{Location{latitude=37.97311277391223, longitude=23.744652782685183}}, Elevation{90.1}, Time{1679249043}
+
+Total tasks received: 67
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97311277391223, longitude=23.744652782685183}}, Elevation{90.1}, Time{1679249043}
+Location{Location{latitude=37.97319312046922, longitude=23.744794939762972}}, Elevation{90.42}, Time{1679249046}
+
+Total tasks received: 68
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97319312046922, longitude=23.744794939762972}}, Elevation{90.42}, Time{1679249046}
+Location{Location{latitude=37.973392483576625, longitude=23.745067394258616}}, Elevation{91.09}, Time{1679249054}
+
+Total tasks received: 69
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.973392483576625, longitude=23.745067394258616}}, Elevation{91.09}, Time{1679249054}
+Location{Location{latitude=37.97356719925303, longitude=23.745331946851927}}, Elevation{91.8}, Time{1679249061}
+
+Total tasks received: 70
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97356719925303, longitude=23.745331946851927}}, Elevation{91.8}, Time{1679249061}
+Location{Location{latitude=37.97374269184847, longitude=23.745533112528044}}, Elevation{92.41}, Time{1679249067}
+
+Total tasks received: 71
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97374269184847, longitude=23.745533112528044}}, Elevation{92.41}, Time{1679249067}
+Location{Location{latitude=37.97394989943305, longitude=23.745828155519682}}, Elevation{93.06}, Time{1679249075}
+
+Total tasks received: 72
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97394989943305, longitude=23.745828155519682}}, Elevation{93.06}, Time{1679249075}
+Location{Location{latitude=37.97415902197752, longitude=23.746117473802133}}, Elevation{93.86}, Time{1679249083}
+
+Total tasks received: 73
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97415902197752, longitude=23.746117473802133}}, Elevation{93.86}, Time{1679249083}
+Location{Location{latitude=37.97427954006226, longitude=23.746385694703623}}, Elevation{94.54}, Time{1679249089}
+
+Total tasks received: 74
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97427954006226, longitude=23.746385694703623}}, Elevation{94.54}, Time{1679249089}
+Location{Location{latitude=37.97450227918583, longitude=23.74673845820651}}, Elevation{95.73}, Time{1679249099}
+
+Total tasks received: 75
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97450227918583, longitude=23.74673845820651}}, Elevation{95.73}, Time{1679249099}
+Location{Location{latitude=37.9747052559496, longitude=23.746971810390807}}, Elevation{96.69}, Time{1679249106}
+
+Total tasks received: 76
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.9747052559496, longitude=23.746971810390807}}, Elevation{96.69}, Time{1679249106}
+Location{Location{latitude=37.974895546155864, longitude=23.747250760128356}}, Elevation{97.78}, Time{1679249114}
+
+Total tasks received: 77
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.974895546155864, longitude=23.747250760128356}}, Elevation{97.78}, Time{1679249114}
+Location{Location{latitude=37.975097289954334, longitude=23.74754840362165}}, Elevation{98.93}, Time{1679249122}
+
+Total tasks received: 78
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975097289954334, longitude=23.74754840362165}}, Elevation{98.93}, Time{1679249122}
+Location{Location{latitude=37.975255864313546, longitude=23.747797849060035}}, Elevation{99.96}, Time{1679249129}
+
+Total tasks received: 79
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975255864313546, longitude=23.747797849060035}}, Elevation{99.96}, Time{1679249129}
+Location{Location{latitude=37.975410209694175, longitude=23.748039247871375}}, Elevation{100.95}, Time{1679249136}
+
+Total tasks received: 80
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975410209694175, longitude=23.748039247871375}}, Elevation{100.95}, Time{1679249136}
+Location{Location{latitude=37.9756519672763, longitude=23.74834417878038}}, Elevation{102.55}, Time{1679249145}
+
+Total tasks received: 81
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.9756519672763, longitude=23.74834417878038}}, Elevation{102.55}, Time{1679249145}
+Location{Location{latitude=37.975785168754456, longitude=23.748593624218763}}, Elevation{103.77}, Time{1679249151}
+
+Total tasks received: 82
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975785168754456, longitude=23.748593624218763}}, Elevation{103.77}, Time{1679249151}
+Location{Location{latitude=37.97598647004297, longitude=23.748818819311296}}, Elevation{105.11}, Time{1679249158}
+
+Total tasks received: 83
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97598647004297, longitude=23.748818819311296}}, Elevation{105.11}, Time{1679249158}
+Location{Location{latitude=37.97621481424548, longitude=23.748797361639177}}, Elevation{105.91}, Time{1679249164}
+
+Total tasks received: 84
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97621481424548, longitude=23.748797361639177}}, Elevation{105.91}, Time{1679249164}
+Location{Location{latitude=37.97652984350689, longitude=23.74847013213936}}, Elevation{106.64}, Time{1679249175}
+
+Total tasks received: 85
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97652984350689, longitude=23.74847013213936}}, Elevation{106.64}, Time{1679249175}
+Location{Location{latitude=37.97628247165052, longitude=23.74706197240654}}, Elevation{104.67}, Time{1679249207}
+
+Total tasks received: 86
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97628247165052, longitude=23.74706197240654}}, Elevation{104.67}, Time{1679249207}
+Location{Location{latitude=37.97596638184659, longitude=23.745779343602294}}, Elevation{103.78}, Time{1679249237}
+
+Total tasks received: 87
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97596638184659, longitude=23.745779343602294}}, Elevation{103.78}, Time{1679249237}
+Location{Location{latitude=37.97562386411712, longitude=23.74436015004654}}, Elevation{102.99}, Time{1679249270}
+
+Total tasks received: 88
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97562386411712, longitude=23.74436015004654}}, Elevation{102.99}, Time{1679249270}
+Location{Location{latitude=37.97531940257132, longitude=23.74304978841322}}, Elevation{102.28}, Time{1679249300}
+
+Total tasks received: 89
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97531940257132, longitude=23.74304978841322}}, Elevation{102.28}, Time{1679249300}
+Location{Location{latitude=37.975425118528946, longitude=23.74203054898756}}, Elevation{102.71}, Time{1679249323}
+
+Total tasks received: 90
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975425118528946, longitude=23.74203054898756}}, Elevation{102.71}, Time{1679249323}
+Location{Location{latitude=37.97556788662639, longitude=23.741168065469758}}, Elevation{103.18}, Time{1679249342}
+
+Total tasks received: 91
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97556788662639, longitude=23.741168065469758}}, Elevation{103.18}, Time{1679249342}
+Location{Location{latitude=37.975627087381, longitude=23.740433140199677}}, Elevation{103.86}, Time{1679249358}
+
+Total tasks received: 92
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975627087381, longitude=23.740433140199677}}, Elevation{103.86}, Time{1679249358}
+Location{Location{latitude=37.97580791475487, longitude=23.739079062557703}}, Elevation{104.01}, Time{1679249388}
+
+Total tasks received: 93
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97580791475487, longitude=23.739079062557703}}, Elevation{104.01}, Time{1679249388}
+Location{Location{latitude=37.97592208722268, longitude=23.73839241704989}}, Elevation{102.22}, Time{1679249403}
+
+Total tasks received: 94
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97592208722268, longitude=23.73839241704989}}, Elevation{102.22}, Time{1679249403}
+Location{Location{latitude=37.97597671207958, longitude=23.737576264541115}}, Elevation{99.77}, Time{1679249421}
+
+Total tasks received: 95
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97597671207958, longitude=23.737576264541115}}, Elevation{99.77}, Time{1679249421}
+Location{Location{latitude=37.976670199774524, longitude=23.737769383590187}}, Elevation{100.47}, Time{1679249441}
+
+Total tasks received: 96
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.976670199774524, longitude=23.737769383590187}}, Elevation{100.47}, Time{1679249441}
+Location{Location{latitude=37.97698311280866, longitude=23.737796205680336}}, Elevation{100.73}, Time{1679249449}
+
+Total tasks received: 97
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97698311280866, longitude=23.737796205680336}}, Elevation{100.73}, Time{1679249449}
+Location{Location{latitude=37.97737636648677, longitude=23.73767282406565}}, Elevation{100.79}, Time{1679249460}
+
+Total tasks received: 98
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97737636648677, longitude=23.73767282406565}}, Elevation{100.79}, Time{1679249460}
+Location{Location{latitude=37.97781613154516, longitude=23.737318772475685}}, Elevation{100.19}, Time{1679249474}
+
+Total tasks received: 99
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97781613154516, longitude=23.737318772475685}}, Elevation{100.19}, Time{1679249474}
+Location{Location{latitude=37.97835874200748, longitude=23.736901558870063}}, Elevation{100.02}, Time{1679249492}
+
+Total tasks received: 100
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97835874200748, longitude=23.736901558870063}}, Elevation{100.02}, Time{1679249492}
+Location{Location{latitude=37.97878581585577, longitude=23.736520685189948}}, Elevation{99.95}, Time{1679249506}
+
+Total tasks received: 101
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97878581585577, longitude=23.736520685189948}}, Elevation{99.95}, Time{1679249506}
+Location{Location{latitude=37.97916923003795, longitude=23.736212666619576}}, Elevation{99.2}, Time{1679249518}
+
+Total tasks received: 102
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97916923003795, longitude=23.736212666619576}}, Elevation{99.2}, Time{1679249518}
+Location{Location{latitude=37.97950327442217, longitude=23.735939081300057}}, Elevation{97.93}, Time{1679249529}
+
+Total tasks received: 103
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97950327442217, longitude=23.735939081300057}}, Elevation{97.93}, Time{1679249529}
+Location{Location{latitude=37.979833088904776, longitude=23.735660131562508}}, Elevation{96.16}, Time{1679249540}
+
+Total tasks received: 104
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.979833088904776, longitude=23.735660131562508}}, Elevation{96.16}, Time{1679249540}
+Location{Location{latitude=37.98020618722079, longitude=23.73537644403112}}, Elevation{94.1}, Time{1679249552}
+
+Total tasks received: 105
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98020618722079, longitude=23.73537644403112}}, Elevation{94.1}, Time{1679249552}
+Location{Location{latitude=37.98052754186235, longitude=23.73514040963781}}, Elevation{92.69}, Time{1679249562}
+
+Total tasks received: 106
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98052754186235, longitude=23.73514040963781}}, Elevation{92.69}, Time{1679249562}
+Location{Location{latitude=37.98078102740884, longitude=23.73490249876249}}, Elevation{91.5}, Time{1679249571}
+
+Total tasks received: 107
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98078102740884, longitude=23.73490249876249}}, Elevation{91.5}, Time{1679249571}
+Location{Location{latitude=37.98109815122494, longitude=23.73465573553312}}, Elevation{90.43}, Time{1679249581}
+
+Total tasks received: 108
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98109815122494, longitude=23.73465573553312}}, Elevation{90.43}, Time{1679249581}
+Location{Location{latitude=37.98139836050812, longitude=23.734366056959512}}, Elevation{89.4}, Time{1679249591}
+
+Total tasks received: 109
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98139836050812, longitude=23.734366056959512}}, Elevation{89.4}, Time{1679249591}
+Location{Location{latitude=37.98178736225963, longitude=23.734124658148172}}, Elevation{88.39}, Time{1679249603}
+
+Total tasks received: 110
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98178736225963, longitude=23.734124658148172}}, Elevation{88.39}, Time{1679249603}
+Location{Location{latitude=37.98199877539012, longitude=23.73390471700895}}, Elevation{87.79}, Time{1679249610}
+
+Total tasks received: 111
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98199877539012, longitude=23.73390471700895}}, Elevation{87.79}, Time{1679249610}
+Location{Location{latitude=37.98237931749014, longitude=23.733577487509134}}, Elevation{86.94}, Time{1679249623}
+
+Total tasks received: 112
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98237931749014, longitude=23.733577487509134}}, Elevation{86.94}, Time{1679249623}
+Location{Location{latitude=37.98278945509948, longitude=23.733298537771585}}, Elevation{85.98}, Time{1679249636}
+
+Total tasks received: 113
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98278945509948, longitude=23.733298537771585}}, Elevation{85.98}, Time{1679249636}
+Location{Location{latitude=37.98288247568165, longitude=23.73313760523069}}, Elevation{85.5}, Time{1679249640}
+
+Total tasks received: 114
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98288247568165, longitude=23.73313760523069}}, Elevation{85.5}, Time{1679249640}
+Location{Location{latitude=37.98264992400512, longitude=23.732729909460428}}, Elevation{84.21}, Time{1679249651}
+
+Total tasks received: 115
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98264992400512, longitude=23.732729909460428}}, Elevation{84.21}, Time{1679249651}
+Location{Location{latitude=37.98251884909906, longitude=23.732509968321207}}, Elevation{83.48}, Time{1679249657}
+
+Total tasks received: 116
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98251884909906, longitude=23.732509968321207}}, Elevation{83.48}, Time{1679249657}
+Location{Location{latitude=37.98234760572384, longitude=23.732180056612375}}, Elevation{82.26}, Time{1679249665}
+
+Total tasks received: 117
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98234760572384, longitude=23.732180056612375}}, Elevation{82.26}, Time{1679249665}
+Location{Location{latitude=37.9821319653496, longitude=23.73177772526014}}, Elevation{80.37}, Time{1679249675}
+
+Total tasks received: 118
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.9821319653496, longitude=23.73177772526014}}, Elevation{80.37}, Time{1679249675}
+Location{Location{latitude=37.98197974823332, longitude=23.731512186567667}}, Elevation{79.69}, Time{1679249682}
+
+Total tasks received: 119
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98197974823332, longitude=23.731512186567667}}, Elevation{79.69}, Time{1679249682}
+Location{Location{latitude=37.98152206189242, longitude=23.73192584679578}}, Elevation{80.94}, Time{1679249698}
+
+Total tasks received: 120
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98152206189242, longitude=23.73192584679578}}, Elevation{80.94}, Time{1679249698}
+Location{Location{latitude=37.98110768889182, longitude=23.732263805131655}}, Elevation{82.34}, Time{1679249712}
+
+Total tasks received: 121
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.98110768889182, longitude=23.732263805131655}}, Elevation{82.34}, Time{1679249712}
+Location{Location{latitude=37.980558006811066, longitude=23.732714416246157}}, Elevation{84.54}, Time{1679249730}
+
+Total tasks received: 122
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.980558006811066, longitude=23.732714416246157}}, Elevation{84.54}, Time{1679249730}
+Location{Location{latitude=37.97998143324145, longitude=23.733175182919215}}, Elevation{86.07}, Time{1679249749}
+
+Total tasks received: 123
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97998143324145, longitude=23.733175182919215}}, Elevation{86.07}, Time{1679249749}
+Location{Location{latitude=37.97954590955547, longitude=23.733641887287806}}, Elevation{87.24}, Time{1679249765}
+
+Total tasks received: 124
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97954590955547, longitude=23.733641887287806}}, Elevation{87.24}, Time{1679249765}
+Location{Location{latitude=37.97930066207053, longitude=23.73376526890249}}, Elevation{87.53}, Time{1679249772}
+
+Total tasks received: 125
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97930066207053, longitude=23.73376526890249}}, Elevation{87.53}, Time{1679249772}
+Location{Location{latitude=37.97868904024683, longitude=23.73438356131276}}, Elevation{89.26}, Time{1679249794}
+
+Total tasks received: 126
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97868904024683, longitude=23.73438356131276}}, Elevation{89.26}, Time{1679249794}
+Location{Location{latitude=37.97805491010762, longitude=23.734882274981004}}, Elevation{90.94}, Time{1679249815}
+
+Total tasks received: 127
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97805491010762, longitude=23.734882274981004}}, Elevation{90.94}, Time{1679249815}
+Location{Location{latitude=37.97720453584287, longitude=23.735627929087144}}, Elevation{92.15}, Time{1679249844}
+
+Total tasks received: 128
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97720453584287, longitude=23.735627929087144}}, Elevation{92.15}, Time{1679249844}
+Location{Location{latitude=37.97687048099584, longitude=23.735880056734544}}, Elevation{92.61}, Time{1679249855}
+
+Total tasks received: 129
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.97687048099584, longitude=23.735880056734544}}, Elevation{92.61}, Time{1679249855}
+Location{Location{latitude=37.976620996004385, longitude=23.735863963480455}}, Elevation{92.97}, Time{1679249862}
+
+Total tasks received: 130
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.976620996004385, longitude=23.735863963480455}}, Elevation{92.97}, Time{1679249862}
+Location{Location{latitude=37.975851392891364, longitude=23.7357459462838}}, Elevation{94.0}, Time{1679249884}
+
+Total tasks received: 131
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975851392891364, longitude=23.7357459462838}}, Elevation{94.0}, Time{1679249884}
+Location{Location{latitude=37.975576532681075, longitude=23.73570839535759}}, Elevation{93.75}, Time{1679249891}
+
+Total tasks received: 132
+Received task: Username: user3
+Waypoints: 
+Location{Location{latitude=37.975576532681075, longitude=23.73570839535759}}, Elevation{93.75}, Time{1679249891}
+Location{Location{latitude=37.97541584469677, longitude=23.73568693768547}}, Elevation{93.68}, Time{1679249895}
+
+Total tasks received: 133
+Intermediate results totalDistance: [0.041399492265158454, 0.04049532608707051, 0.025968234212680498, 0.04437223589017616, 0.02840813249748303, 0.031169356063886166, 0.024469415607915337, 0.024018038983746458, 0.020329903929517657, 0.015994447284914854, 0.018490271286028696, 0.03429297020065006, 0.010304784622458235, 0.032837296299015016, 0.02362859632116611, 0.011040337080533699, 0.010722849036457949, 0.01238987613054584, 0.015533586596082284, 0.017633627820656726, 0.013534975437215283, 0.013099138842144104, 0.01283484554320707, 0.01115007430169712, 0.011216814662977633, 0.018326895095248975, 0.009784938193293933, 0.014758173240483487, 0.016678430215276995, 0.007787327371641126, 0.01515916895930441, 0.010622021535842513, 0.019240937603582423, 0.02404894539632922, 0.02667742916437972, 0.026195470371206623, 0.01918781708367849, 0.019672928476785007, 0.02803355584301874, 0.0336810240788003, 0.02574114802864767, 0.026098417435078267, 0.04150216998843209, 0.033963753134694304, 0.03850536211661235, 0.014998072807013036, 0.03820622613565477, 0.02863838999596822, 0.02266996844111254, 0.027970342480920035, 0.0394196669655701, 0.028467799052184047, 0.0373143645464254, 0.0515219864535457, 0.054729287713839676, 0.03079292783082386, 0.040014974267167575, 0.030706468537018677, 0.03448487087153943, 0.03756215856887141, 0.03581427213295468, 0.024786151644399988, 0.033355944007016615, 0.029116691983940915, 0.0204545615810538, 0.03055997128349801, 0.017795435523122696, 0.015332618808262567, 0.03258486668422038, 0.030251735516923933, 0.026300484717346955, 0.034636534708616294, 0.034406986304760155, 0.02706162604630546, 0.03961729607934349, 0.03045935736690272, 0.03233505118702279, 0.034407602817060894, 0.02808856294640988, 0.027244421180666167, 0.03790817197616419, 0.02640880373879038, 0.029843691477363283, 0.025460280586155334, 0.04527398690843888, 0.12645445203737682, 0.11779020262839815, 0.1300946320593918, 0.11974147418898841, 0.09010863574404837, 0.07724730471751015, 0.06475310572526112, 0.12037849198975534, 0.06150999219906781, 0.07179441359333562, 0.07894830812945144, 0.03487367606235635, 0.045045233663577454, 0.057915361278804596, 0.07055225042900329, 0.058048039413473855, 0.05046267265225866, 0.04421170990100542, 0.04407629857139686, 0.04836706547673412, 0.04128948518788349, 0.03506095023313983, 0.04136672144877822, 0.041939709747605254, 0.04815215682993556, 0.03040093978505567, 0.05111781506091471, 0.05174503590510697, 0.017490788574228873, 0.04410702527270366, 0.02416624870303941, 0.03462131098150163, 0.042642163011571886, 0.028776922021803767, 0.06248573781727041, 0.05477574231237017, 0.07277133665721366, 0.07577113928832045, 0.06339172599023944, 0.0293361922654501, 0.0869599494299292, 0.08296174591121844, 0.11494572545534532, 0.04322191585079203, 0.027777304452950815, 0.08619890217245933, 0.030739779602138664, 0.01796640589047867]
+Intermediate results totalTime: [10, 10, 6, 11, 7, 8, 6, 6, 5, 4, 4, 8, 2, 8, 6, 2, 2, 3, 3, 4, 3, 3, 3, 2, 2, 4, 2, 3, 4, 2, 3, 2, 4, 6, 6, 6, 4, 5, 7, 8, 6, 6, 10, 8, 9, 3, 9, 7, 5, 7, 10, 7, 9, 13, 14, 7, 10, 7, 8, 9, 9, 6, 8, 7, 5, 7, 4, 3, 8, 7, 6, 8, 8, 6, 10, 7, 8, 8, 7, 7, 9, 6, 7, 6, 11, 32, 30, 33, 30, 23, 19, 16, 30, 15, 18, 20, 8, 11, 14, 18, 14, 12, 11, 11, 12, 10, 9, 10, 10, 12, 7, 13, 13, 4, 11, 6, 8, 10, 7, 16, 14, 18, 19, 16, 7, 22, 21, 29, 11, 7, 22, 7, 4]
+Intermediate results totalElevationGain: [0.5300000000000011, 0.9699999999999989, 0.9400000000000119, 1.769999999999996, 1.2199999999999989, 0.8199999999999932, 0.4200000000000017, 0.5900000000000034, 0.28000000000000114, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.45000000000000284, 0.980000000000004, 1.4299999999999926, 0.5500000000000114, 1.269999999999996, 0.9000000000000057, 0.5099999999999909, 0.28000000000000114, 0.21999999999999886, 0.060000000000002274, 0.1599999999999966, 0.1600000000000108, 0.14999999999999147, 0.15000000000000568, 0.7999999999999972, 0.7600000000000051, 0.7399999999999949, 0.9899999999999949, 0.6600000000000108, 0.5, 0.75, 0.6399999999999864, 0.5700000000000074, 0.8499999999999943, 0.35999999999999943, 0.3200000000000074, 0.6700000000000017, 0.7099999999999937, 0.6099999999999994, 0.6500000000000057, 0.7999999999999972, 0.6800000000000068, 1.1899999999999977, 0.9599999999999937, 1.0900000000000034, 1.1500000000000057, 1.029999999999987, 0.9900000000000091, 1.5999999999999943, 1.2199999999999989, 1.3400000000000034, 0.7999999999999972, 0.730000000000004, 0.0, 0.0, 0.0, 0.0, 0.4299999999999926, 0.4700000000000131, 0.6799999999999926, 0.15000000000000568, 0.0, 0.0, 0.7000000000000028, 0.2600000000000051, 0.060000000000002274, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.25, 1.4000000000000057, 2.200000000000003, 1.529999999999987, 1.1700000000000017, 0.29000000000000625, 1.730000000000004, 1.6799999999999926, 1.210000000000008, 0.45999999999999375, 0.35999999999999943, 1.0300000000000011, 0.0, 0.0]

@@ -74,7 +74,8 @@ public class Worker implements Runnable {
                     // Prepare for the next round
                     running.set(true); // Make the worker free before starting the next round
                     taskSize = -1; // Reset task size
-                    tasks.clear(); // Clear tasks
+                    clear(); // Clear tasks
+                    resetIntermediateResult();
                     continue; // Start the next round
                 }
 
@@ -92,48 +93,6 @@ public class Worker implements Runnable {
         }
     }
 
-
-    //    @Override
-//    public void run() {
-//
-//        while (true) {
-//            try {
-//                if (!running.get()) {
-//                    continue;
-//                }
-//                if (taskSize == -1) {
-//                    // Receive the task size
-//                    taskSize = ois.readInt();
-//                    System.out.println("Received task size: " + taskSize);
-//                    if (taskSize == 0) {
-//                        break; // No tasks to process, exit the loop
-//                    }
-//                }
-//
-//                if (tasks.size() == taskSize) {
-//                    break; // Received all tasks, exit the loop
-//                }
-//
-//                Task task = (Task) ois.readObject();
-//                System.out.println("Received task: " + task.toString());
-//                tasks.add(task);
-//                System.out.println("Total tasks received: " + tasks.size());
-//
-//
-//
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            } catch (ClassNotFoundException e) {
-//                throw new RuntimeException(e);
-//            }
-//        }
-//        processTasks();
-//        System.out.println("Intermediate results totalDistance: " + intResult.getTotalDistances());
-//        System.out.println("Intermediate results totalTime: " + intResult.getTotalTimes());
-//        System.out.println("Intermediate results totalElevationGain: " + intResult.getTotalElevationGains());
-//        sendIntermediateResultToServer();
-//
-//    }
     public boolean isFree() {
         return running.get();
     }
@@ -145,6 +104,10 @@ public class Worker implements Runnable {
     public void markAsBusy() {
         running.set(false);
     }
+    private void resetIntermediateResult() {
+        intResult = new IntermediateResult();
+    }
+
     public void processTasks() {
         for (Task task : tasks) {
             List<Wpt> waypoints = task.getWaypoints();
@@ -175,6 +138,7 @@ public class Worker implements Runnable {
         intResult.getTotalDistances().clear();
         intResult.getTotalTimes().clear();
         intResult.getTotalElevationGains().clear();
+        tasks.clear();
     }
     public void sendIntermediateResultToServer() {
         try {
